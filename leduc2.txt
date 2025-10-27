@@ -1,0 +1,2224 @@
+node / chance actions JJ=0.06666667 JQ=0.13333334 JK=0.13333334 QJ=0.13333334 QQ=0.06666667 QK=0.13333334 KJ=0.13333334 KQ=0.13333334 KK=0.06666667
+node /C:JJ/ player 1 actions c r
+node /C:JJ/P1:c/ player 2 actions c r
+node /C:JJ/P1:c/P2:c/ chance actions Q=0.5 K=0.5
+node /C:JJ/P1:c/P2:c/C:Q/ player 1 actions c r
+node /C:JJ/P1:c/P2:c/C:Q/P1:c/ player 2 actions c r
+node /C:JJ/P1:c/P2:c/C:Q/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:JJ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:JJ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JJ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:JJ/P1:c/P2:c/C:Q/P1:r/ player 2 actions c f r
+node /C:JJ/P1:c/P2:c/C:Q/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:c/C:Q/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:JJ/P1:c/P2:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:JJ/P1:c/P2:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:JJ/P1:c/P2:c/C:K/ player 1 actions c r
+node /C:JJ/P1:c/P2:c/C:K/P1:c/ player 2 actions c r
+node /C:JJ/P1:c/P2:c/C:K/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:JJ/P1:c/P2:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:JJ/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JJ/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:JJ/P1:c/P2:c/C:K/P1:r/ player 2 actions c f r
+node /C:JJ/P1:c/P2:c/C:K/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:c/C:K/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:JJ/P1:c/P2:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:JJ/P1:c/P2:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:JJ/P1:c/P2:r/ player 1 actions c f r
+node /C:JJ/P1:c/P2:r/P1:c/ chance actions Q=0.5 K=0.5
+node /C:JJ/P1:c/P2:r/P1:c/C:Q/ player 1 actions c r
+node /C:JJ/P1:c/P2:r/P1:c/C:Q/P1:c/ player 2 actions c r
+node /C:JJ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:JJ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:JJ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JJ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:JJ/P1:c/P2:r/P1:c/C:Q/P1:r/ player 2 actions c f r
+node /C:JJ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:JJ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:JJ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:JJ/P1:c/P2:r/P1:c/C:K/ player 1 actions c r
+node /C:JJ/P1:c/P2:r/P1:c/C:K/P1:c/ player 2 actions c r
+node /C:JJ/P1:c/P2:r/P1:c/C:K/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:JJ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:JJ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JJ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:JJ/P1:c/P2:r/P1:c/C:K/P1:r/ player 2 actions c f r
+node /C:JJ/P1:c/P2:r/P1:c/C:K/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:r/P1:c/C:K/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:JJ/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:JJ/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:JJ/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:JJ/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/ chance actions Q=0.5 K=0.5
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:Q/ player 1 actions c r
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/ player 2 actions c r
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/ player 2 actions c f r
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:K/ player 1 actions c r
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/ player 2 actions c r
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/ player 2 actions c f r
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:JJ/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:JJ/P1:r/ player 2 actions c f r
+node /C:JJ/P1:r/P2:c/ chance actions Q=0.5 K=0.5
+node /C:JJ/P1:r/P2:c/C:Q/ player 1 actions c r
+node /C:JJ/P1:r/P2:c/C:Q/P1:c/ player 2 actions c r
+node /C:JJ/P1:r/P2:c/C:Q/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:r/P2:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:JJ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:JJ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JJ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:JJ/P1:r/P2:c/C:Q/P1:r/ player 2 actions c f r
+node /C:JJ/P1:r/P2:c/C:Q/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:r/P2:c/C:Q/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:JJ/P1:r/P2:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:JJ/P1:r/P2:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:r/P2:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:JJ/P1:r/P2:c/C:K/ player 1 actions c r
+node /C:JJ/P1:r/P2:c/C:K/P1:c/ player 2 actions c r
+node /C:JJ/P1:r/P2:c/C:K/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:r/P2:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:JJ/P1:r/P2:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:r/P2:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:JJ/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JJ/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:JJ/P1:r/P2:c/C:K/P1:r/ player 2 actions c f r
+node /C:JJ/P1:r/P2:c/C:K/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:r/P2:c/C:K/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:JJ/P1:r/P2:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:JJ/P1:r/P2:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:r/P2:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:JJ/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:JJ/P1:r/P2:r/ player 1 actions c f
+node /C:JJ/P1:r/P2:r/P1:c/ chance actions Q=0.5 K=0.5
+node /C:JJ/P1:r/P2:r/P1:c/C:Q/ player 1 actions c r
+node /C:JJ/P1:r/P2:r/P1:c/C:Q/P1:c/ player 2 actions c r
+node /C:JJ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:JJ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:JJ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JJ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:JJ/P1:r/P2:r/P1:c/C:Q/P1:r/ player 2 actions c f r
+node /C:JJ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:JJ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:JJ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:JJ/P1:r/P2:r/P1:c/C:K/ player 1 actions c r
+node /C:JJ/P1:r/P2:r/P1:c/C:K/P1:c/ player 2 actions c r
+node /C:JJ/P1:r/P2:r/P1:c/C:K/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:JJ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:JJ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JJ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:JJ/P1:r/P2:r/P1:c/C:K/P1:r/ player 2 actions c f r
+node /C:JJ/P1:r/P2:r/P1:c/C:K/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:r/P2:r/P1:c/C:K/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:JJ/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:JJ/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:JJ/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:JJ/P1:r/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:JQ/ player 1 actions c r
+node /C:JQ/P1:c/ player 2 actions c r
+node /C:JQ/P1:c/P2:c/ chance actions J=0.25 Q=0.25 K=0.5
+node /C:JQ/P1:c/P2:c/C:J/ player 1 actions c r
+node /C:JQ/P1:c/P2:c/C:J/P1:c/ player 2 actions c r
+node /C:JQ/P1:c/P2:c/C:J/P1:c/P2:c/ terminal payoffs 1=1 2=-1
+node /C:JQ/P1:c/P2:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:JQ/P1:c/P2:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=5 2=-5
+node /C:JQ/P1:c/P2:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:JQ/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JQ/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=9 2=-9
+node /C:JQ/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:JQ/P1:c/P2:c/C:J/P1:r/ player 2 actions c f r
+node /C:JQ/P1:c/P2:c/C:J/P1:r/P2:c/ terminal payoffs 1=5 2=-5
+node /C:JQ/P1:c/P2:c/C:J/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:JQ/P1:c/P2:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:JQ/P1:c/P2:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=9 2=-9
+node /C:JQ/P1:c/P2:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:JQ/P1:c/P2:c/C:Q/ player 1 actions c r
+node /C:JQ/P1:c/P2:c/C:Q/P1:c/ player 2 actions c r
+node /C:JQ/P1:c/P2:c/C:Q/P1:c/P2:c/ terminal payoffs 1=-1 2=1
+node /C:JQ/P1:c/P2:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:JQ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=-5 2=5
+node /C:JQ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:JQ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JQ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-9 2=9
+node /C:JQ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:JQ/P1:c/P2:c/C:Q/P1:r/ player 2 actions c f r
+node /C:JQ/P1:c/P2:c/C:Q/P1:r/P2:c/ terminal payoffs 1=-5 2=5
+node /C:JQ/P1:c/P2:c/C:Q/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:JQ/P1:c/P2:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:JQ/P1:c/P2:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=-9 2=9
+node /C:JQ/P1:c/P2:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:JQ/P1:c/P2:c/C:K/ player 1 actions c r
+node /C:JQ/P1:c/P2:c/C:K/P1:c/ player 2 actions c r
+node /C:JQ/P1:c/P2:c/C:K/P1:c/P2:c/ terminal payoffs 1=-1 2=1
+node /C:JQ/P1:c/P2:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:JQ/P1:c/P2:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=-5 2=5
+node /C:JQ/P1:c/P2:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:JQ/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JQ/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-9 2=9
+node /C:JQ/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:JQ/P1:c/P2:c/C:K/P1:r/ player 2 actions c f r
+node /C:JQ/P1:c/P2:c/C:K/P1:r/P2:c/ terminal payoffs 1=-5 2=5
+node /C:JQ/P1:c/P2:c/C:K/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:JQ/P1:c/P2:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:JQ/P1:c/P2:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=-9 2=9
+node /C:JQ/P1:c/P2:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:JQ/P1:c/P2:r/ player 1 actions c f r
+node /C:JQ/P1:c/P2:r/P1:c/ chance actions J=0.25 Q=0.25 K=0.5
+node /C:JQ/P1:c/P2:r/P1:c/C:J/ player 1 actions c r
+node /C:JQ/P1:c/P2:r/P1:c/C:J/P1:c/ player 2 actions c r
+node /C:JQ/P1:c/P2:r/P1:c/C:J/P1:c/P2:c/ terminal payoffs 1=3 2=-3
+node /C:JQ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:JQ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=7 2=-7
+node /C:JQ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:JQ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JQ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=11 2=-11
+node /C:JQ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:JQ/P1:c/P2:r/P1:c/C:J/P1:r/ player 2 actions c f r
+node /C:JQ/P1:c/P2:r/P1:c/C:J/P1:r/P2:c/ terminal payoffs 1=7 2=-7
+node /C:JQ/P1:c/P2:r/P1:c/C:J/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:JQ/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:JQ/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=11 2=-11
+node /C:JQ/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:JQ/P1:c/P2:r/P1:c/C:Q/ player 1 actions c r
+node /C:JQ/P1:c/P2:r/P1:c/C:Q/P1:c/ player 2 actions c r
+node /C:JQ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:c/ terminal payoffs 1=-3 2=3
+node /C:JQ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:JQ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=-7 2=7
+node /C:JQ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:JQ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JQ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-11 2=11
+node /C:JQ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:JQ/P1:c/P2:r/P1:c/C:Q/P1:r/ player 2 actions c f r
+node /C:JQ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:c/ terminal payoffs 1=-7 2=7
+node /C:JQ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:JQ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:JQ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=-11 2=11
+node /C:JQ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:JQ/P1:c/P2:r/P1:c/C:K/ player 1 actions c r
+node /C:JQ/P1:c/P2:r/P1:c/C:K/P1:c/ player 2 actions c r
+node /C:JQ/P1:c/P2:r/P1:c/C:K/P1:c/P2:c/ terminal payoffs 1=-3 2=3
+node /C:JQ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:JQ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=-7 2=7
+node /C:JQ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:JQ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JQ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-11 2=11
+node /C:JQ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:JQ/P1:c/P2:r/P1:c/C:K/P1:r/ player 2 actions c f r
+node /C:JQ/P1:c/P2:r/P1:c/C:K/P1:r/P2:c/ terminal payoffs 1=-7 2=7
+node /C:JQ/P1:c/P2:r/P1:c/C:K/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:JQ/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:JQ/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=-11 2=11
+node /C:JQ/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:JQ/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:JQ/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/ chance actions J=0.25 Q=0.25 K=0.5
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:J/ player 1 actions c r
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/ player 2 actions c r
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:c/ terminal payoffs 1=5 2=-5
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=9 2=-9
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=13 2=-13
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/ player 2 actions c f r
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:c/ terminal payoffs 1=9 2=-9
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=13 2=-13
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:Q/ player 1 actions c r
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/ player 2 actions c r
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:c/ terminal payoffs 1=-5 2=5
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=-9 2=9
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-13 2=13
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/ player 2 actions c f r
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:c/ terminal payoffs 1=-9 2=9
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=-13 2=13
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:K/ player 1 actions c r
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/ player 2 actions c r
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:c/ terminal payoffs 1=-5 2=5
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=-9 2=9
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-13 2=13
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/ player 2 actions c f r
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:c/ terminal payoffs 1=-9 2=9
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=-13 2=13
+node /C:JQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:JQ/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:JQ/P1:r/ player 2 actions c f r
+node /C:JQ/P1:r/P2:c/ chance actions J=0.25 Q=0.25 K=0.5
+node /C:JQ/P1:r/P2:c/C:J/ player 1 actions c r
+node /C:JQ/P1:r/P2:c/C:J/P1:c/ player 2 actions c r
+node /C:JQ/P1:r/P2:c/C:J/P1:c/P2:c/ terminal payoffs 1=3 2=-3
+node /C:JQ/P1:r/P2:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:JQ/P1:r/P2:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=7 2=-7
+node /C:JQ/P1:r/P2:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:JQ/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JQ/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=11 2=-11
+node /C:JQ/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:JQ/P1:r/P2:c/C:J/P1:r/ player 2 actions c f r
+node /C:JQ/P1:r/P2:c/C:J/P1:r/P2:c/ terminal payoffs 1=7 2=-7
+node /C:JQ/P1:r/P2:c/C:J/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:JQ/P1:r/P2:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:JQ/P1:r/P2:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=11 2=-11
+node /C:JQ/P1:r/P2:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:JQ/P1:r/P2:c/C:Q/ player 1 actions c r
+node /C:JQ/P1:r/P2:c/C:Q/P1:c/ player 2 actions c r
+node /C:JQ/P1:r/P2:c/C:Q/P1:c/P2:c/ terminal payoffs 1=-3 2=3
+node /C:JQ/P1:r/P2:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:JQ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=-7 2=7
+node /C:JQ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:JQ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JQ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-11 2=11
+node /C:JQ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:JQ/P1:r/P2:c/C:Q/P1:r/ player 2 actions c f r
+node /C:JQ/P1:r/P2:c/C:Q/P1:r/P2:c/ terminal payoffs 1=-7 2=7
+node /C:JQ/P1:r/P2:c/C:Q/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:JQ/P1:r/P2:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:JQ/P1:r/P2:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=-11 2=11
+node /C:JQ/P1:r/P2:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:JQ/P1:r/P2:c/C:K/ player 1 actions c r
+node /C:JQ/P1:r/P2:c/C:K/P1:c/ player 2 actions c r
+node /C:JQ/P1:r/P2:c/C:K/P1:c/P2:c/ terminal payoffs 1=-3 2=3
+node /C:JQ/P1:r/P2:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:JQ/P1:r/P2:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=-7 2=7
+node /C:JQ/P1:r/P2:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:JQ/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JQ/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-11 2=11
+node /C:JQ/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:JQ/P1:r/P2:c/C:K/P1:r/ player 2 actions c f r
+node /C:JQ/P1:r/P2:c/C:K/P1:r/P2:c/ terminal payoffs 1=-7 2=7
+node /C:JQ/P1:r/P2:c/C:K/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:JQ/P1:r/P2:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:JQ/P1:r/P2:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=-11 2=11
+node /C:JQ/P1:r/P2:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:JQ/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:JQ/P1:r/P2:r/ player 1 actions c f
+node /C:JQ/P1:r/P2:r/P1:c/ chance actions J=0.25 Q=0.25 K=0.5
+node /C:JQ/P1:r/P2:r/P1:c/C:J/ player 1 actions c r
+node /C:JQ/P1:r/P2:r/P1:c/C:J/P1:c/ player 2 actions c r
+node /C:JQ/P1:r/P2:r/P1:c/C:J/P1:c/P2:c/ terminal payoffs 1=5 2=-5
+node /C:JQ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:JQ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=9 2=-9
+node /C:JQ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:JQ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JQ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=13 2=-13
+node /C:JQ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:JQ/P1:r/P2:r/P1:c/C:J/P1:r/ player 2 actions c f r
+node /C:JQ/P1:r/P2:r/P1:c/C:J/P1:r/P2:c/ terminal payoffs 1=9 2=-9
+node /C:JQ/P1:r/P2:r/P1:c/C:J/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:JQ/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:JQ/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=13 2=-13
+node /C:JQ/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:JQ/P1:r/P2:r/P1:c/C:Q/ player 1 actions c r
+node /C:JQ/P1:r/P2:r/P1:c/C:Q/P1:c/ player 2 actions c r
+node /C:JQ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:c/ terminal payoffs 1=-5 2=5
+node /C:JQ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:JQ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=-9 2=9
+node /C:JQ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:JQ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JQ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-13 2=13
+node /C:JQ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:JQ/P1:r/P2:r/P1:c/C:Q/P1:r/ player 2 actions c f r
+node /C:JQ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:c/ terminal payoffs 1=-9 2=9
+node /C:JQ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:JQ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:JQ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=-13 2=13
+node /C:JQ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:JQ/P1:r/P2:r/P1:c/C:K/ player 1 actions c r
+node /C:JQ/P1:r/P2:r/P1:c/C:K/P1:c/ player 2 actions c r
+node /C:JQ/P1:r/P2:r/P1:c/C:K/P1:c/P2:c/ terminal payoffs 1=-5 2=5
+node /C:JQ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:JQ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=-9 2=9
+node /C:JQ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:JQ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JQ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-13 2=13
+node /C:JQ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:JQ/P1:r/P2:r/P1:c/C:K/P1:r/ player 2 actions c f r
+node /C:JQ/P1:r/P2:r/P1:c/C:K/P1:r/P2:c/ terminal payoffs 1=-9 2=9
+node /C:JQ/P1:r/P2:r/P1:c/C:K/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:JQ/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:JQ/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=-13 2=13
+node /C:JQ/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:JQ/P1:r/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:JK/ player 1 actions c r
+node /C:JK/P1:c/ player 2 actions c r
+node /C:JK/P1:c/P2:c/ chance actions J=0.25 Q=0.5 K=0.25
+node /C:JK/P1:c/P2:c/C:J/ player 1 actions c r
+node /C:JK/P1:c/P2:c/C:J/P1:c/ player 2 actions c r
+node /C:JK/P1:c/P2:c/C:J/P1:c/P2:c/ terminal payoffs 1=1 2=-1
+node /C:JK/P1:c/P2:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:JK/P1:c/P2:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=5 2=-5
+node /C:JK/P1:c/P2:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:JK/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JK/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=9 2=-9
+node /C:JK/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:JK/P1:c/P2:c/C:J/P1:r/ player 2 actions c f r
+node /C:JK/P1:c/P2:c/C:J/P1:r/P2:c/ terminal payoffs 1=5 2=-5
+node /C:JK/P1:c/P2:c/C:J/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:JK/P1:c/P2:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:JK/P1:c/P2:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=9 2=-9
+node /C:JK/P1:c/P2:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:JK/P1:c/P2:c/C:Q/ player 1 actions c r
+node /C:JK/P1:c/P2:c/C:Q/P1:c/ player 2 actions c r
+node /C:JK/P1:c/P2:c/C:Q/P1:c/P2:c/ terminal payoffs 1=-1 2=1
+node /C:JK/P1:c/P2:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:JK/P1:c/P2:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=-5 2=5
+node /C:JK/P1:c/P2:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:JK/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JK/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-9 2=9
+node /C:JK/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:JK/P1:c/P2:c/C:Q/P1:r/ player 2 actions c f r
+node /C:JK/P1:c/P2:c/C:Q/P1:r/P2:c/ terminal payoffs 1=-5 2=5
+node /C:JK/P1:c/P2:c/C:Q/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:JK/P1:c/P2:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:JK/P1:c/P2:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=-9 2=9
+node /C:JK/P1:c/P2:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:JK/P1:c/P2:c/C:K/ player 1 actions c r
+node /C:JK/P1:c/P2:c/C:K/P1:c/ player 2 actions c r
+node /C:JK/P1:c/P2:c/C:K/P1:c/P2:c/ terminal payoffs 1=-1 2=1
+node /C:JK/P1:c/P2:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:JK/P1:c/P2:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=-5 2=5
+node /C:JK/P1:c/P2:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:JK/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JK/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-9 2=9
+node /C:JK/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:JK/P1:c/P2:c/C:K/P1:r/ player 2 actions c f r
+node /C:JK/P1:c/P2:c/C:K/P1:r/P2:c/ terminal payoffs 1=-5 2=5
+node /C:JK/P1:c/P2:c/C:K/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:JK/P1:c/P2:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:JK/P1:c/P2:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=-9 2=9
+node /C:JK/P1:c/P2:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:JK/P1:c/P2:r/ player 1 actions c f r
+node /C:JK/P1:c/P2:r/P1:c/ chance actions J=0.25 Q=0.5 K=0.25
+node /C:JK/P1:c/P2:r/P1:c/C:J/ player 1 actions c r
+node /C:JK/P1:c/P2:r/P1:c/C:J/P1:c/ player 2 actions c r
+node /C:JK/P1:c/P2:r/P1:c/C:J/P1:c/P2:c/ terminal payoffs 1=3 2=-3
+node /C:JK/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:JK/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=7 2=-7
+node /C:JK/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:JK/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JK/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=11 2=-11
+node /C:JK/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:JK/P1:c/P2:r/P1:c/C:J/P1:r/ player 2 actions c f r
+node /C:JK/P1:c/P2:r/P1:c/C:J/P1:r/P2:c/ terminal payoffs 1=7 2=-7
+node /C:JK/P1:c/P2:r/P1:c/C:J/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:JK/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:JK/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=11 2=-11
+node /C:JK/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:JK/P1:c/P2:r/P1:c/C:Q/ player 1 actions c r
+node /C:JK/P1:c/P2:r/P1:c/C:Q/P1:c/ player 2 actions c r
+node /C:JK/P1:c/P2:r/P1:c/C:Q/P1:c/P2:c/ terminal payoffs 1=-3 2=3
+node /C:JK/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:JK/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=-7 2=7
+node /C:JK/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:JK/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JK/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-11 2=11
+node /C:JK/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:JK/P1:c/P2:r/P1:c/C:Q/P1:r/ player 2 actions c f r
+node /C:JK/P1:c/P2:r/P1:c/C:Q/P1:r/P2:c/ terminal payoffs 1=-7 2=7
+node /C:JK/P1:c/P2:r/P1:c/C:Q/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:JK/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:JK/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=-11 2=11
+node /C:JK/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:JK/P1:c/P2:r/P1:c/C:K/ player 1 actions c r
+node /C:JK/P1:c/P2:r/P1:c/C:K/P1:c/ player 2 actions c r
+node /C:JK/P1:c/P2:r/P1:c/C:K/P1:c/P2:c/ terminal payoffs 1=-3 2=3
+node /C:JK/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:JK/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=-7 2=7
+node /C:JK/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:JK/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JK/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-11 2=11
+node /C:JK/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:JK/P1:c/P2:r/P1:c/C:K/P1:r/ player 2 actions c f r
+node /C:JK/P1:c/P2:r/P1:c/C:K/P1:r/P2:c/ terminal payoffs 1=-7 2=7
+node /C:JK/P1:c/P2:r/P1:c/C:K/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:JK/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:JK/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=-11 2=11
+node /C:JK/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:JK/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:JK/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JK/P1:c/P2:r/P1:r/P2:c/ chance actions J=0.25 Q=0.5 K=0.25
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:J/ player 1 actions c r
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/ player 2 actions c r
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:c/ terminal payoffs 1=5 2=-5
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=9 2=-9
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=13 2=-13
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/ player 2 actions c f r
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:c/ terminal payoffs 1=9 2=-9
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=13 2=-13
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:Q/ player 1 actions c r
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/ player 2 actions c r
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:c/ terminal payoffs 1=-5 2=5
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=-9 2=9
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-13 2=13
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/ player 2 actions c f r
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:c/ terminal payoffs 1=-9 2=9
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=-13 2=13
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:K/ player 1 actions c r
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/ player 2 actions c r
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:c/ terminal payoffs 1=-5 2=5
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=-9 2=9
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-13 2=13
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/ player 2 actions c f r
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:c/ terminal payoffs 1=-9 2=9
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=-13 2=13
+node /C:JK/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:JK/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:JK/P1:r/ player 2 actions c f r
+node /C:JK/P1:r/P2:c/ chance actions J=0.25 Q=0.5 K=0.25
+node /C:JK/P1:r/P2:c/C:J/ player 1 actions c r
+node /C:JK/P1:r/P2:c/C:J/P1:c/ player 2 actions c r
+node /C:JK/P1:r/P2:c/C:J/P1:c/P2:c/ terminal payoffs 1=3 2=-3
+node /C:JK/P1:r/P2:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:JK/P1:r/P2:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=7 2=-7
+node /C:JK/P1:r/P2:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:JK/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JK/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=11 2=-11
+node /C:JK/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:JK/P1:r/P2:c/C:J/P1:r/ player 2 actions c f r
+node /C:JK/P1:r/P2:c/C:J/P1:r/P2:c/ terminal payoffs 1=7 2=-7
+node /C:JK/P1:r/P2:c/C:J/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:JK/P1:r/P2:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:JK/P1:r/P2:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=11 2=-11
+node /C:JK/P1:r/P2:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:JK/P1:r/P2:c/C:Q/ player 1 actions c r
+node /C:JK/P1:r/P2:c/C:Q/P1:c/ player 2 actions c r
+node /C:JK/P1:r/P2:c/C:Q/P1:c/P2:c/ terminal payoffs 1=-3 2=3
+node /C:JK/P1:r/P2:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:JK/P1:r/P2:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=-7 2=7
+node /C:JK/P1:r/P2:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:JK/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JK/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-11 2=11
+node /C:JK/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:JK/P1:r/P2:c/C:Q/P1:r/ player 2 actions c f r
+node /C:JK/P1:r/P2:c/C:Q/P1:r/P2:c/ terminal payoffs 1=-7 2=7
+node /C:JK/P1:r/P2:c/C:Q/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:JK/P1:r/P2:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:JK/P1:r/P2:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=-11 2=11
+node /C:JK/P1:r/P2:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:JK/P1:r/P2:c/C:K/ player 1 actions c r
+node /C:JK/P1:r/P2:c/C:K/P1:c/ player 2 actions c r
+node /C:JK/P1:r/P2:c/C:K/P1:c/P2:c/ terminal payoffs 1=-3 2=3
+node /C:JK/P1:r/P2:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:JK/P1:r/P2:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=-7 2=7
+node /C:JK/P1:r/P2:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:JK/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JK/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-11 2=11
+node /C:JK/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:JK/P1:r/P2:c/C:K/P1:r/ player 2 actions c f r
+node /C:JK/P1:r/P2:c/C:K/P1:r/P2:c/ terminal payoffs 1=-7 2=7
+node /C:JK/P1:r/P2:c/C:K/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:JK/P1:r/P2:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:JK/P1:r/P2:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=-11 2=11
+node /C:JK/P1:r/P2:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:JK/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:JK/P1:r/P2:r/ player 1 actions c f
+node /C:JK/P1:r/P2:r/P1:c/ chance actions J=0.25 Q=0.5 K=0.25
+node /C:JK/P1:r/P2:r/P1:c/C:J/ player 1 actions c r
+node /C:JK/P1:r/P2:r/P1:c/C:J/P1:c/ player 2 actions c r
+node /C:JK/P1:r/P2:r/P1:c/C:J/P1:c/P2:c/ terminal payoffs 1=5 2=-5
+node /C:JK/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:JK/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=9 2=-9
+node /C:JK/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:JK/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JK/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=13 2=-13
+node /C:JK/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:JK/P1:r/P2:r/P1:c/C:J/P1:r/ player 2 actions c f r
+node /C:JK/P1:r/P2:r/P1:c/C:J/P1:r/P2:c/ terminal payoffs 1=9 2=-9
+node /C:JK/P1:r/P2:r/P1:c/C:J/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:JK/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:JK/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=13 2=-13
+node /C:JK/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:JK/P1:r/P2:r/P1:c/C:Q/ player 1 actions c r
+node /C:JK/P1:r/P2:r/P1:c/C:Q/P1:c/ player 2 actions c r
+node /C:JK/P1:r/P2:r/P1:c/C:Q/P1:c/P2:c/ terminal payoffs 1=-5 2=5
+node /C:JK/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:JK/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=-9 2=9
+node /C:JK/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:JK/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JK/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-13 2=13
+node /C:JK/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:JK/P1:r/P2:r/P1:c/C:Q/P1:r/ player 2 actions c f r
+node /C:JK/P1:r/P2:r/P1:c/C:Q/P1:r/P2:c/ terminal payoffs 1=-9 2=9
+node /C:JK/P1:r/P2:r/P1:c/C:Q/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:JK/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:JK/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=-13 2=13
+node /C:JK/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:JK/P1:r/P2:r/P1:c/C:K/ player 1 actions c r
+node /C:JK/P1:r/P2:r/P1:c/C:K/P1:c/ player 2 actions c r
+node /C:JK/P1:r/P2:r/P1:c/C:K/P1:c/P2:c/ terminal payoffs 1=-5 2=5
+node /C:JK/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:JK/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=-9 2=9
+node /C:JK/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:JK/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:JK/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-13 2=13
+node /C:JK/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:JK/P1:r/P2:r/P1:c/C:K/P1:r/ player 2 actions c f r
+node /C:JK/P1:r/P2:r/P1:c/C:K/P1:r/P2:c/ terminal payoffs 1=-9 2=9
+node /C:JK/P1:r/P2:r/P1:c/C:K/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:JK/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:JK/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=-13 2=13
+node /C:JK/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:JK/P1:r/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:QJ/ player 1 actions c r
+node /C:QJ/P1:c/ player 2 actions c r
+node /C:QJ/P1:c/P2:c/ chance actions J=0.25 Q=0.25 K=0.5
+node /C:QJ/P1:c/P2:c/C:J/ player 1 actions c r
+node /C:QJ/P1:c/P2:c/C:J/P1:c/ player 2 actions c r
+node /C:QJ/P1:c/P2:c/C:J/P1:c/P2:c/ terminal payoffs 1=-1 2=1
+node /C:QJ/P1:c/P2:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:QJ/P1:c/P2:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=-5 2=5
+node /C:QJ/P1:c/P2:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:QJ/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QJ/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-9 2=9
+node /C:QJ/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:QJ/P1:c/P2:c/C:J/P1:r/ player 2 actions c f r
+node /C:QJ/P1:c/P2:c/C:J/P1:r/P2:c/ terminal payoffs 1=-5 2=5
+node /C:QJ/P1:c/P2:c/C:J/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:QJ/P1:c/P2:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:QJ/P1:c/P2:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=-9 2=9
+node /C:QJ/P1:c/P2:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:QJ/P1:c/P2:c/C:Q/ player 1 actions c r
+node /C:QJ/P1:c/P2:c/C:Q/P1:c/ player 2 actions c r
+node /C:QJ/P1:c/P2:c/C:Q/P1:c/P2:c/ terminal payoffs 1=1 2=-1
+node /C:QJ/P1:c/P2:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:QJ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=5 2=-5
+node /C:QJ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:QJ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QJ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=9 2=-9
+node /C:QJ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:QJ/P1:c/P2:c/C:Q/P1:r/ player 2 actions c f r
+node /C:QJ/P1:c/P2:c/C:Q/P1:r/P2:c/ terminal payoffs 1=5 2=-5
+node /C:QJ/P1:c/P2:c/C:Q/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:QJ/P1:c/P2:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:QJ/P1:c/P2:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=9 2=-9
+node /C:QJ/P1:c/P2:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:QJ/P1:c/P2:c/C:K/ player 1 actions c r
+node /C:QJ/P1:c/P2:c/C:K/P1:c/ player 2 actions c r
+node /C:QJ/P1:c/P2:c/C:K/P1:c/P2:c/ terminal payoffs 1=1 2=-1
+node /C:QJ/P1:c/P2:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:QJ/P1:c/P2:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=5 2=-5
+node /C:QJ/P1:c/P2:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:QJ/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QJ/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=9 2=-9
+node /C:QJ/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:QJ/P1:c/P2:c/C:K/P1:r/ player 2 actions c f r
+node /C:QJ/P1:c/P2:c/C:K/P1:r/P2:c/ terminal payoffs 1=5 2=-5
+node /C:QJ/P1:c/P2:c/C:K/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:QJ/P1:c/P2:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:QJ/P1:c/P2:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=9 2=-9
+node /C:QJ/P1:c/P2:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:QJ/P1:c/P2:r/ player 1 actions c f r
+node /C:QJ/P1:c/P2:r/P1:c/ chance actions J=0.25 Q=0.25 K=0.5
+node /C:QJ/P1:c/P2:r/P1:c/C:J/ player 1 actions c r
+node /C:QJ/P1:c/P2:r/P1:c/C:J/P1:c/ player 2 actions c r
+node /C:QJ/P1:c/P2:r/P1:c/C:J/P1:c/P2:c/ terminal payoffs 1=-3 2=3
+node /C:QJ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:QJ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=-7 2=7
+node /C:QJ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:QJ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QJ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-11 2=11
+node /C:QJ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:QJ/P1:c/P2:r/P1:c/C:J/P1:r/ player 2 actions c f r
+node /C:QJ/P1:c/P2:r/P1:c/C:J/P1:r/P2:c/ terminal payoffs 1=-7 2=7
+node /C:QJ/P1:c/P2:r/P1:c/C:J/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:QJ/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:QJ/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=-11 2=11
+node /C:QJ/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:QJ/P1:c/P2:r/P1:c/C:Q/ player 1 actions c r
+node /C:QJ/P1:c/P2:r/P1:c/C:Q/P1:c/ player 2 actions c r
+node /C:QJ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:c/ terminal payoffs 1=3 2=-3
+node /C:QJ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:QJ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=7 2=-7
+node /C:QJ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:QJ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QJ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=11 2=-11
+node /C:QJ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:QJ/P1:c/P2:r/P1:c/C:Q/P1:r/ player 2 actions c f r
+node /C:QJ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:c/ terminal payoffs 1=7 2=-7
+node /C:QJ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:QJ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:QJ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=11 2=-11
+node /C:QJ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:QJ/P1:c/P2:r/P1:c/C:K/ player 1 actions c r
+node /C:QJ/P1:c/P2:r/P1:c/C:K/P1:c/ player 2 actions c r
+node /C:QJ/P1:c/P2:r/P1:c/C:K/P1:c/P2:c/ terminal payoffs 1=3 2=-3
+node /C:QJ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:QJ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=7 2=-7
+node /C:QJ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:QJ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QJ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=11 2=-11
+node /C:QJ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:QJ/P1:c/P2:r/P1:c/C:K/P1:r/ player 2 actions c f r
+node /C:QJ/P1:c/P2:r/P1:c/C:K/P1:r/P2:c/ terminal payoffs 1=7 2=-7
+node /C:QJ/P1:c/P2:r/P1:c/C:K/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:QJ/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:QJ/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=11 2=-11
+node /C:QJ/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:QJ/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:QJ/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/ chance actions J=0.25 Q=0.25 K=0.5
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:J/ player 1 actions c r
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/ player 2 actions c r
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:c/ terminal payoffs 1=-5 2=5
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=-9 2=9
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-13 2=13
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/ player 2 actions c f r
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:c/ terminal payoffs 1=-9 2=9
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=-13 2=13
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:Q/ player 1 actions c r
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/ player 2 actions c r
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:c/ terminal payoffs 1=5 2=-5
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=9 2=-9
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=13 2=-13
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/ player 2 actions c f r
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:c/ terminal payoffs 1=9 2=-9
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=13 2=-13
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:K/ player 1 actions c r
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/ player 2 actions c r
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:c/ terminal payoffs 1=5 2=-5
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=9 2=-9
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=13 2=-13
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/ player 2 actions c f r
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:c/ terminal payoffs 1=9 2=-9
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=13 2=-13
+node /C:QJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:QJ/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:QJ/P1:r/ player 2 actions c f r
+node /C:QJ/P1:r/P2:c/ chance actions J=0.25 Q=0.25 K=0.5
+node /C:QJ/P1:r/P2:c/C:J/ player 1 actions c r
+node /C:QJ/P1:r/P2:c/C:J/P1:c/ player 2 actions c r
+node /C:QJ/P1:r/P2:c/C:J/P1:c/P2:c/ terminal payoffs 1=-3 2=3
+node /C:QJ/P1:r/P2:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:QJ/P1:r/P2:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=-7 2=7
+node /C:QJ/P1:r/P2:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:QJ/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QJ/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-11 2=11
+node /C:QJ/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:QJ/P1:r/P2:c/C:J/P1:r/ player 2 actions c f r
+node /C:QJ/P1:r/P2:c/C:J/P1:r/P2:c/ terminal payoffs 1=-7 2=7
+node /C:QJ/P1:r/P2:c/C:J/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:QJ/P1:r/P2:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:QJ/P1:r/P2:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=-11 2=11
+node /C:QJ/P1:r/P2:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:QJ/P1:r/P2:c/C:Q/ player 1 actions c r
+node /C:QJ/P1:r/P2:c/C:Q/P1:c/ player 2 actions c r
+node /C:QJ/P1:r/P2:c/C:Q/P1:c/P2:c/ terminal payoffs 1=3 2=-3
+node /C:QJ/P1:r/P2:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:QJ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=7 2=-7
+node /C:QJ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:QJ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QJ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=11 2=-11
+node /C:QJ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:QJ/P1:r/P2:c/C:Q/P1:r/ player 2 actions c f r
+node /C:QJ/P1:r/P2:c/C:Q/P1:r/P2:c/ terminal payoffs 1=7 2=-7
+node /C:QJ/P1:r/P2:c/C:Q/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:QJ/P1:r/P2:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:QJ/P1:r/P2:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=11 2=-11
+node /C:QJ/P1:r/P2:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:QJ/P1:r/P2:c/C:K/ player 1 actions c r
+node /C:QJ/P1:r/P2:c/C:K/P1:c/ player 2 actions c r
+node /C:QJ/P1:r/P2:c/C:K/P1:c/P2:c/ terminal payoffs 1=3 2=-3
+node /C:QJ/P1:r/P2:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:QJ/P1:r/P2:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=7 2=-7
+node /C:QJ/P1:r/P2:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:QJ/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QJ/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=11 2=-11
+node /C:QJ/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:QJ/P1:r/P2:c/C:K/P1:r/ player 2 actions c f r
+node /C:QJ/P1:r/P2:c/C:K/P1:r/P2:c/ terminal payoffs 1=7 2=-7
+node /C:QJ/P1:r/P2:c/C:K/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:QJ/P1:r/P2:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:QJ/P1:r/P2:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=11 2=-11
+node /C:QJ/P1:r/P2:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:QJ/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:QJ/P1:r/P2:r/ player 1 actions c f
+node /C:QJ/P1:r/P2:r/P1:c/ chance actions J=0.25 Q=0.25 K=0.5
+node /C:QJ/P1:r/P2:r/P1:c/C:J/ player 1 actions c r
+node /C:QJ/P1:r/P2:r/P1:c/C:J/P1:c/ player 2 actions c r
+node /C:QJ/P1:r/P2:r/P1:c/C:J/P1:c/P2:c/ terminal payoffs 1=-5 2=5
+node /C:QJ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:QJ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=-9 2=9
+node /C:QJ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:QJ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QJ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-13 2=13
+node /C:QJ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:QJ/P1:r/P2:r/P1:c/C:J/P1:r/ player 2 actions c f r
+node /C:QJ/P1:r/P2:r/P1:c/C:J/P1:r/P2:c/ terminal payoffs 1=-9 2=9
+node /C:QJ/P1:r/P2:r/P1:c/C:J/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:QJ/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:QJ/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=-13 2=13
+node /C:QJ/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:QJ/P1:r/P2:r/P1:c/C:Q/ player 1 actions c r
+node /C:QJ/P1:r/P2:r/P1:c/C:Q/P1:c/ player 2 actions c r
+node /C:QJ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:c/ terminal payoffs 1=5 2=-5
+node /C:QJ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:QJ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=9 2=-9
+node /C:QJ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:QJ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QJ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=13 2=-13
+node /C:QJ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:QJ/P1:r/P2:r/P1:c/C:Q/P1:r/ player 2 actions c f r
+node /C:QJ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:c/ terminal payoffs 1=9 2=-9
+node /C:QJ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:QJ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:QJ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=13 2=-13
+node /C:QJ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:QJ/P1:r/P2:r/P1:c/C:K/ player 1 actions c r
+node /C:QJ/P1:r/P2:r/P1:c/C:K/P1:c/ player 2 actions c r
+node /C:QJ/P1:r/P2:r/P1:c/C:K/P1:c/P2:c/ terminal payoffs 1=5 2=-5
+node /C:QJ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:QJ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=9 2=-9
+node /C:QJ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:QJ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QJ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=13 2=-13
+node /C:QJ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:QJ/P1:r/P2:r/P1:c/C:K/P1:r/ player 2 actions c f r
+node /C:QJ/P1:r/P2:r/P1:c/C:K/P1:r/P2:c/ terminal payoffs 1=9 2=-9
+node /C:QJ/P1:r/P2:r/P1:c/C:K/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:QJ/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:QJ/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=13 2=-13
+node /C:QJ/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:QJ/P1:r/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:QQ/ player 1 actions c r
+node /C:QQ/P1:c/ player 2 actions c r
+node /C:QQ/P1:c/P2:c/ chance actions J=0.5 K=0.5
+node /C:QQ/P1:c/P2:c/C:J/ player 1 actions c r
+node /C:QQ/P1:c/P2:c/C:J/P1:c/ player 2 actions c r
+node /C:QQ/P1:c/P2:c/C:J/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:QQ/P1:c/P2:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:QQ/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QQ/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:QQ/P1:c/P2:c/C:J/P1:r/ player 2 actions c f r
+node /C:QQ/P1:c/P2:c/C:J/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:c/C:J/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:QQ/P1:c/P2:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:QQ/P1:c/P2:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:QQ/P1:c/P2:c/C:K/ player 1 actions c r
+node /C:QQ/P1:c/P2:c/C:K/P1:c/ player 2 actions c r
+node /C:QQ/P1:c/P2:c/C:K/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:QQ/P1:c/P2:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:QQ/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QQ/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:QQ/P1:c/P2:c/C:K/P1:r/ player 2 actions c f r
+node /C:QQ/P1:c/P2:c/C:K/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:c/C:K/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:QQ/P1:c/P2:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:QQ/P1:c/P2:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:QQ/P1:c/P2:r/ player 1 actions c f r
+node /C:QQ/P1:c/P2:r/P1:c/ chance actions J=0.5 K=0.5
+node /C:QQ/P1:c/P2:r/P1:c/C:J/ player 1 actions c r
+node /C:QQ/P1:c/P2:r/P1:c/C:J/P1:c/ player 2 actions c r
+node /C:QQ/P1:c/P2:r/P1:c/C:J/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:QQ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:QQ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QQ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:QQ/P1:c/P2:r/P1:c/C:J/P1:r/ player 2 actions c f r
+node /C:QQ/P1:c/P2:r/P1:c/C:J/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:r/P1:c/C:J/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:QQ/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:QQ/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:QQ/P1:c/P2:r/P1:c/C:K/ player 1 actions c r
+node /C:QQ/P1:c/P2:r/P1:c/C:K/P1:c/ player 2 actions c r
+node /C:QQ/P1:c/P2:r/P1:c/C:K/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:QQ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:QQ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QQ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:QQ/P1:c/P2:r/P1:c/C:K/P1:r/ player 2 actions c f r
+node /C:QQ/P1:c/P2:r/P1:c/C:K/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:r/P1:c/C:K/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:QQ/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:QQ/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:QQ/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:QQ/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/ chance actions J=0.5 K=0.5
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:J/ player 1 actions c r
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/ player 2 actions c r
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/ player 2 actions c f r
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:K/ player 1 actions c r
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/ player 2 actions c r
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/ player 2 actions c f r
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:QQ/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:QQ/P1:r/ player 2 actions c f r
+node /C:QQ/P1:r/P2:c/ chance actions J=0.5 K=0.5
+node /C:QQ/P1:r/P2:c/C:J/ player 1 actions c r
+node /C:QQ/P1:r/P2:c/C:J/P1:c/ player 2 actions c r
+node /C:QQ/P1:r/P2:c/C:J/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:r/P2:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:QQ/P1:r/P2:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:r/P2:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:QQ/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QQ/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:QQ/P1:r/P2:c/C:J/P1:r/ player 2 actions c f r
+node /C:QQ/P1:r/P2:c/C:J/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:r/P2:c/C:J/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:QQ/P1:r/P2:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:QQ/P1:r/P2:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:r/P2:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:QQ/P1:r/P2:c/C:K/ player 1 actions c r
+node /C:QQ/P1:r/P2:c/C:K/P1:c/ player 2 actions c r
+node /C:QQ/P1:r/P2:c/C:K/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:r/P2:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:QQ/P1:r/P2:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:r/P2:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:QQ/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QQ/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:QQ/P1:r/P2:c/C:K/P1:r/ player 2 actions c f r
+node /C:QQ/P1:r/P2:c/C:K/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:r/P2:c/C:K/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:QQ/P1:r/P2:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:QQ/P1:r/P2:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:r/P2:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:QQ/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:QQ/P1:r/P2:r/ player 1 actions c f
+node /C:QQ/P1:r/P2:r/P1:c/ chance actions J=0.5 K=0.5
+node /C:QQ/P1:r/P2:r/P1:c/C:J/ player 1 actions c r
+node /C:QQ/P1:r/P2:r/P1:c/C:J/P1:c/ player 2 actions c r
+node /C:QQ/P1:r/P2:r/P1:c/C:J/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:QQ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:QQ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QQ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:QQ/P1:r/P2:r/P1:c/C:J/P1:r/ player 2 actions c f r
+node /C:QQ/P1:r/P2:r/P1:c/C:J/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:r/P2:r/P1:c/C:J/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:QQ/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:QQ/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:QQ/P1:r/P2:r/P1:c/C:K/ player 1 actions c r
+node /C:QQ/P1:r/P2:r/P1:c/C:K/P1:c/ player 2 actions c r
+node /C:QQ/P1:r/P2:r/P1:c/C:K/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:QQ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:QQ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QQ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:QQ/P1:r/P2:r/P1:c/C:K/P1:r/ player 2 actions c f r
+node /C:QQ/P1:r/P2:r/P1:c/C:K/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:r/P2:r/P1:c/C:K/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:QQ/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:QQ/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:QQ/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:QQ/P1:r/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:QK/ player 1 actions c r
+node /C:QK/P1:c/ player 2 actions c r
+node /C:QK/P1:c/P2:c/ chance actions J=0.5 Q=0.25 K=0.25
+node /C:QK/P1:c/P2:c/C:J/ player 1 actions c r
+node /C:QK/P1:c/P2:c/C:J/P1:c/ player 2 actions c r
+node /C:QK/P1:c/P2:c/C:J/P1:c/P2:c/ terminal payoffs 1=-1 2=1
+node /C:QK/P1:c/P2:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:QK/P1:c/P2:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=-5 2=5
+node /C:QK/P1:c/P2:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:QK/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QK/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-9 2=9
+node /C:QK/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:QK/P1:c/P2:c/C:J/P1:r/ player 2 actions c f r
+node /C:QK/P1:c/P2:c/C:J/P1:r/P2:c/ terminal payoffs 1=-5 2=5
+node /C:QK/P1:c/P2:c/C:J/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:QK/P1:c/P2:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:QK/P1:c/P2:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=-9 2=9
+node /C:QK/P1:c/P2:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:QK/P1:c/P2:c/C:Q/ player 1 actions c r
+node /C:QK/P1:c/P2:c/C:Q/P1:c/ player 2 actions c r
+node /C:QK/P1:c/P2:c/C:Q/P1:c/P2:c/ terminal payoffs 1=1 2=-1
+node /C:QK/P1:c/P2:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:QK/P1:c/P2:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=5 2=-5
+node /C:QK/P1:c/P2:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:QK/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QK/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=9 2=-9
+node /C:QK/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:QK/P1:c/P2:c/C:Q/P1:r/ player 2 actions c f r
+node /C:QK/P1:c/P2:c/C:Q/P1:r/P2:c/ terminal payoffs 1=5 2=-5
+node /C:QK/P1:c/P2:c/C:Q/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:QK/P1:c/P2:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:QK/P1:c/P2:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=9 2=-9
+node /C:QK/P1:c/P2:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:QK/P1:c/P2:c/C:K/ player 1 actions c r
+node /C:QK/P1:c/P2:c/C:K/P1:c/ player 2 actions c r
+node /C:QK/P1:c/P2:c/C:K/P1:c/P2:c/ terminal payoffs 1=-1 2=1
+node /C:QK/P1:c/P2:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:QK/P1:c/P2:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=-5 2=5
+node /C:QK/P1:c/P2:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:QK/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QK/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-9 2=9
+node /C:QK/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:QK/P1:c/P2:c/C:K/P1:r/ player 2 actions c f r
+node /C:QK/P1:c/P2:c/C:K/P1:r/P2:c/ terminal payoffs 1=-5 2=5
+node /C:QK/P1:c/P2:c/C:K/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:QK/P1:c/P2:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:QK/P1:c/P2:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=-9 2=9
+node /C:QK/P1:c/P2:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:QK/P1:c/P2:r/ player 1 actions c f r
+node /C:QK/P1:c/P2:r/P1:c/ chance actions J=0.5 Q=0.25 K=0.25
+node /C:QK/P1:c/P2:r/P1:c/C:J/ player 1 actions c r
+node /C:QK/P1:c/P2:r/P1:c/C:J/P1:c/ player 2 actions c r
+node /C:QK/P1:c/P2:r/P1:c/C:J/P1:c/P2:c/ terminal payoffs 1=-3 2=3
+node /C:QK/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:QK/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=-7 2=7
+node /C:QK/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:QK/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QK/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-11 2=11
+node /C:QK/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:QK/P1:c/P2:r/P1:c/C:J/P1:r/ player 2 actions c f r
+node /C:QK/P1:c/P2:r/P1:c/C:J/P1:r/P2:c/ terminal payoffs 1=-7 2=7
+node /C:QK/P1:c/P2:r/P1:c/C:J/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:QK/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:QK/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=-11 2=11
+node /C:QK/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:QK/P1:c/P2:r/P1:c/C:Q/ player 1 actions c r
+node /C:QK/P1:c/P2:r/P1:c/C:Q/P1:c/ player 2 actions c r
+node /C:QK/P1:c/P2:r/P1:c/C:Q/P1:c/P2:c/ terminal payoffs 1=3 2=-3
+node /C:QK/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:QK/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=7 2=-7
+node /C:QK/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:QK/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QK/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=11 2=-11
+node /C:QK/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:QK/P1:c/P2:r/P1:c/C:Q/P1:r/ player 2 actions c f r
+node /C:QK/P1:c/P2:r/P1:c/C:Q/P1:r/P2:c/ terminal payoffs 1=7 2=-7
+node /C:QK/P1:c/P2:r/P1:c/C:Q/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:QK/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:QK/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=11 2=-11
+node /C:QK/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:QK/P1:c/P2:r/P1:c/C:K/ player 1 actions c r
+node /C:QK/P1:c/P2:r/P1:c/C:K/P1:c/ player 2 actions c r
+node /C:QK/P1:c/P2:r/P1:c/C:K/P1:c/P2:c/ terminal payoffs 1=-3 2=3
+node /C:QK/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:QK/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=-7 2=7
+node /C:QK/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:QK/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QK/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-11 2=11
+node /C:QK/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:QK/P1:c/P2:r/P1:c/C:K/P1:r/ player 2 actions c f r
+node /C:QK/P1:c/P2:r/P1:c/C:K/P1:r/P2:c/ terminal payoffs 1=-7 2=7
+node /C:QK/P1:c/P2:r/P1:c/C:K/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:QK/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:QK/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=-11 2=11
+node /C:QK/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:QK/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:QK/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QK/P1:c/P2:r/P1:r/P2:c/ chance actions J=0.5 Q=0.25 K=0.25
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:J/ player 1 actions c r
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/ player 2 actions c r
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:c/ terminal payoffs 1=-5 2=5
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=-9 2=9
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-13 2=13
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/ player 2 actions c f r
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:c/ terminal payoffs 1=-9 2=9
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=-13 2=13
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:Q/ player 1 actions c r
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/ player 2 actions c r
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:c/ terminal payoffs 1=5 2=-5
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=9 2=-9
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=13 2=-13
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/ player 2 actions c f r
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:c/ terminal payoffs 1=9 2=-9
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=13 2=-13
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:K/ player 1 actions c r
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/ player 2 actions c r
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:c/ terminal payoffs 1=-5 2=5
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=-9 2=9
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-13 2=13
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/ player 2 actions c f r
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:c/ terminal payoffs 1=-9 2=9
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=-13 2=13
+node /C:QK/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:QK/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:QK/P1:r/ player 2 actions c f r
+node /C:QK/P1:r/P2:c/ chance actions J=0.5 Q=0.25 K=0.25
+node /C:QK/P1:r/P2:c/C:J/ player 1 actions c r
+node /C:QK/P1:r/P2:c/C:J/P1:c/ player 2 actions c r
+node /C:QK/P1:r/P2:c/C:J/P1:c/P2:c/ terminal payoffs 1=-3 2=3
+node /C:QK/P1:r/P2:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:QK/P1:r/P2:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=-7 2=7
+node /C:QK/P1:r/P2:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:QK/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QK/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-11 2=11
+node /C:QK/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:QK/P1:r/P2:c/C:J/P1:r/ player 2 actions c f r
+node /C:QK/P1:r/P2:c/C:J/P1:r/P2:c/ terminal payoffs 1=-7 2=7
+node /C:QK/P1:r/P2:c/C:J/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:QK/P1:r/P2:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:QK/P1:r/P2:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=-11 2=11
+node /C:QK/P1:r/P2:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:QK/P1:r/P2:c/C:Q/ player 1 actions c r
+node /C:QK/P1:r/P2:c/C:Q/P1:c/ player 2 actions c r
+node /C:QK/P1:r/P2:c/C:Q/P1:c/P2:c/ terminal payoffs 1=3 2=-3
+node /C:QK/P1:r/P2:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:QK/P1:r/P2:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=7 2=-7
+node /C:QK/P1:r/P2:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:QK/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QK/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=11 2=-11
+node /C:QK/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:QK/P1:r/P2:c/C:Q/P1:r/ player 2 actions c f r
+node /C:QK/P1:r/P2:c/C:Q/P1:r/P2:c/ terminal payoffs 1=7 2=-7
+node /C:QK/P1:r/P2:c/C:Q/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:QK/P1:r/P2:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:QK/P1:r/P2:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=11 2=-11
+node /C:QK/P1:r/P2:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:QK/P1:r/P2:c/C:K/ player 1 actions c r
+node /C:QK/P1:r/P2:c/C:K/P1:c/ player 2 actions c r
+node /C:QK/P1:r/P2:c/C:K/P1:c/P2:c/ terminal payoffs 1=-3 2=3
+node /C:QK/P1:r/P2:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:QK/P1:r/P2:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=-7 2=7
+node /C:QK/P1:r/P2:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:QK/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QK/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-11 2=11
+node /C:QK/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:QK/P1:r/P2:c/C:K/P1:r/ player 2 actions c f r
+node /C:QK/P1:r/P2:c/C:K/P1:r/P2:c/ terminal payoffs 1=-7 2=7
+node /C:QK/P1:r/P2:c/C:K/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:QK/P1:r/P2:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:QK/P1:r/P2:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=-11 2=11
+node /C:QK/P1:r/P2:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:QK/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:QK/P1:r/P2:r/ player 1 actions c f
+node /C:QK/P1:r/P2:r/P1:c/ chance actions J=0.5 Q=0.25 K=0.25
+node /C:QK/P1:r/P2:r/P1:c/C:J/ player 1 actions c r
+node /C:QK/P1:r/P2:r/P1:c/C:J/P1:c/ player 2 actions c r
+node /C:QK/P1:r/P2:r/P1:c/C:J/P1:c/P2:c/ terminal payoffs 1=-5 2=5
+node /C:QK/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:QK/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=-9 2=9
+node /C:QK/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:QK/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QK/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-13 2=13
+node /C:QK/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:QK/P1:r/P2:r/P1:c/C:J/P1:r/ player 2 actions c f r
+node /C:QK/P1:r/P2:r/P1:c/C:J/P1:r/P2:c/ terminal payoffs 1=-9 2=9
+node /C:QK/P1:r/P2:r/P1:c/C:J/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:QK/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:QK/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=-13 2=13
+node /C:QK/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:QK/P1:r/P2:r/P1:c/C:Q/ player 1 actions c r
+node /C:QK/P1:r/P2:r/P1:c/C:Q/P1:c/ player 2 actions c r
+node /C:QK/P1:r/P2:r/P1:c/C:Q/P1:c/P2:c/ terminal payoffs 1=5 2=-5
+node /C:QK/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:QK/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=9 2=-9
+node /C:QK/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:QK/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QK/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=13 2=-13
+node /C:QK/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:QK/P1:r/P2:r/P1:c/C:Q/P1:r/ player 2 actions c f r
+node /C:QK/P1:r/P2:r/P1:c/C:Q/P1:r/P2:c/ terminal payoffs 1=9 2=-9
+node /C:QK/P1:r/P2:r/P1:c/C:Q/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:QK/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:QK/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=13 2=-13
+node /C:QK/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:QK/P1:r/P2:r/P1:c/C:K/ player 1 actions c r
+node /C:QK/P1:r/P2:r/P1:c/C:K/P1:c/ player 2 actions c r
+node /C:QK/P1:r/P2:r/P1:c/C:K/P1:c/P2:c/ terminal payoffs 1=-5 2=5
+node /C:QK/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:QK/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=-9 2=9
+node /C:QK/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:QK/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:QK/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-13 2=13
+node /C:QK/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:QK/P1:r/P2:r/P1:c/C:K/P1:r/ player 2 actions c f r
+node /C:QK/P1:r/P2:r/P1:c/C:K/P1:r/P2:c/ terminal payoffs 1=-9 2=9
+node /C:QK/P1:r/P2:r/P1:c/C:K/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:QK/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:QK/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=-13 2=13
+node /C:QK/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:QK/P1:r/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:KJ/ player 1 actions c r
+node /C:KJ/P1:c/ player 2 actions c r
+node /C:KJ/P1:c/P2:c/ chance actions J=0.25 Q=0.5 K=0.25
+node /C:KJ/P1:c/P2:c/C:J/ player 1 actions c r
+node /C:KJ/P1:c/P2:c/C:J/P1:c/ player 2 actions c r
+node /C:KJ/P1:c/P2:c/C:J/P1:c/P2:c/ terminal payoffs 1=-1 2=1
+node /C:KJ/P1:c/P2:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:KJ/P1:c/P2:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=-5 2=5
+node /C:KJ/P1:c/P2:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:KJ/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KJ/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-9 2=9
+node /C:KJ/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:KJ/P1:c/P2:c/C:J/P1:r/ player 2 actions c f r
+node /C:KJ/P1:c/P2:c/C:J/P1:r/P2:c/ terminal payoffs 1=-5 2=5
+node /C:KJ/P1:c/P2:c/C:J/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:KJ/P1:c/P2:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:KJ/P1:c/P2:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=-9 2=9
+node /C:KJ/P1:c/P2:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:KJ/P1:c/P2:c/C:Q/ player 1 actions c r
+node /C:KJ/P1:c/P2:c/C:Q/P1:c/ player 2 actions c r
+node /C:KJ/P1:c/P2:c/C:Q/P1:c/P2:c/ terminal payoffs 1=1 2=-1
+node /C:KJ/P1:c/P2:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:KJ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=5 2=-5
+node /C:KJ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:KJ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KJ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=9 2=-9
+node /C:KJ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:KJ/P1:c/P2:c/C:Q/P1:r/ player 2 actions c f r
+node /C:KJ/P1:c/P2:c/C:Q/P1:r/P2:c/ terminal payoffs 1=5 2=-5
+node /C:KJ/P1:c/P2:c/C:Q/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:KJ/P1:c/P2:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:KJ/P1:c/P2:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=9 2=-9
+node /C:KJ/P1:c/P2:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:KJ/P1:c/P2:c/C:K/ player 1 actions c r
+node /C:KJ/P1:c/P2:c/C:K/P1:c/ player 2 actions c r
+node /C:KJ/P1:c/P2:c/C:K/P1:c/P2:c/ terminal payoffs 1=1 2=-1
+node /C:KJ/P1:c/P2:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:KJ/P1:c/P2:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=5 2=-5
+node /C:KJ/P1:c/P2:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:KJ/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KJ/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=9 2=-9
+node /C:KJ/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:KJ/P1:c/P2:c/C:K/P1:r/ player 2 actions c f r
+node /C:KJ/P1:c/P2:c/C:K/P1:r/P2:c/ terminal payoffs 1=5 2=-5
+node /C:KJ/P1:c/P2:c/C:K/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:KJ/P1:c/P2:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:KJ/P1:c/P2:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=9 2=-9
+node /C:KJ/P1:c/P2:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:KJ/P1:c/P2:r/ player 1 actions c f r
+node /C:KJ/P1:c/P2:r/P1:c/ chance actions J=0.25 Q=0.5 K=0.25
+node /C:KJ/P1:c/P2:r/P1:c/C:J/ player 1 actions c r
+node /C:KJ/P1:c/P2:r/P1:c/C:J/P1:c/ player 2 actions c r
+node /C:KJ/P1:c/P2:r/P1:c/C:J/P1:c/P2:c/ terminal payoffs 1=-3 2=3
+node /C:KJ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:KJ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=-7 2=7
+node /C:KJ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:KJ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KJ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-11 2=11
+node /C:KJ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:KJ/P1:c/P2:r/P1:c/C:J/P1:r/ player 2 actions c f r
+node /C:KJ/P1:c/P2:r/P1:c/C:J/P1:r/P2:c/ terminal payoffs 1=-7 2=7
+node /C:KJ/P1:c/P2:r/P1:c/C:J/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:KJ/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:KJ/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=-11 2=11
+node /C:KJ/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:KJ/P1:c/P2:r/P1:c/C:Q/ player 1 actions c r
+node /C:KJ/P1:c/P2:r/P1:c/C:Q/P1:c/ player 2 actions c r
+node /C:KJ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:c/ terminal payoffs 1=3 2=-3
+node /C:KJ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:KJ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=7 2=-7
+node /C:KJ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:KJ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KJ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=11 2=-11
+node /C:KJ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:KJ/P1:c/P2:r/P1:c/C:Q/P1:r/ player 2 actions c f r
+node /C:KJ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:c/ terminal payoffs 1=7 2=-7
+node /C:KJ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:KJ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:KJ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=11 2=-11
+node /C:KJ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:KJ/P1:c/P2:r/P1:c/C:K/ player 1 actions c r
+node /C:KJ/P1:c/P2:r/P1:c/C:K/P1:c/ player 2 actions c r
+node /C:KJ/P1:c/P2:r/P1:c/C:K/P1:c/P2:c/ terminal payoffs 1=3 2=-3
+node /C:KJ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:KJ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=7 2=-7
+node /C:KJ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:KJ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KJ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=11 2=-11
+node /C:KJ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:KJ/P1:c/P2:r/P1:c/C:K/P1:r/ player 2 actions c f r
+node /C:KJ/P1:c/P2:r/P1:c/C:K/P1:r/P2:c/ terminal payoffs 1=7 2=-7
+node /C:KJ/P1:c/P2:r/P1:c/C:K/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:KJ/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:KJ/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=11 2=-11
+node /C:KJ/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:KJ/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:KJ/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/ chance actions J=0.25 Q=0.5 K=0.25
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:J/ player 1 actions c r
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/ player 2 actions c r
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:c/ terminal payoffs 1=-5 2=5
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=-9 2=9
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-13 2=13
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/ player 2 actions c f r
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:c/ terminal payoffs 1=-9 2=9
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=-13 2=13
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:Q/ player 1 actions c r
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/ player 2 actions c r
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:c/ terminal payoffs 1=5 2=-5
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=9 2=-9
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=13 2=-13
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/ player 2 actions c f r
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:c/ terminal payoffs 1=9 2=-9
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=13 2=-13
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:K/ player 1 actions c r
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/ player 2 actions c r
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:c/ terminal payoffs 1=5 2=-5
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=9 2=-9
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=13 2=-13
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/ player 2 actions c f r
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:c/ terminal payoffs 1=9 2=-9
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=13 2=-13
+node /C:KJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:KJ/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:KJ/P1:r/ player 2 actions c f r
+node /C:KJ/P1:r/P2:c/ chance actions J=0.25 Q=0.5 K=0.25
+node /C:KJ/P1:r/P2:c/C:J/ player 1 actions c r
+node /C:KJ/P1:r/P2:c/C:J/P1:c/ player 2 actions c r
+node /C:KJ/P1:r/P2:c/C:J/P1:c/P2:c/ terminal payoffs 1=-3 2=3
+node /C:KJ/P1:r/P2:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:KJ/P1:r/P2:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=-7 2=7
+node /C:KJ/P1:r/P2:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:KJ/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KJ/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-11 2=11
+node /C:KJ/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:KJ/P1:r/P2:c/C:J/P1:r/ player 2 actions c f r
+node /C:KJ/P1:r/P2:c/C:J/P1:r/P2:c/ terminal payoffs 1=-7 2=7
+node /C:KJ/P1:r/P2:c/C:J/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:KJ/P1:r/P2:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:KJ/P1:r/P2:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=-11 2=11
+node /C:KJ/P1:r/P2:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:KJ/P1:r/P2:c/C:Q/ player 1 actions c r
+node /C:KJ/P1:r/P2:c/C:Q/P1:c/ player 2 actions c r
+node /C:KJ/P1:r/P2:c/C:Q/P1:c/P2:c/ terminal payoffs 1=3 2=-3
+node /C:KJ/P1:r/P2:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:KJ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=7 2=-7
+node /C:KJ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:KJ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KJ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=11 2=-11
+node /C:KJ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:KJ/P1:r/P2:c/C:Q/P1:r/ player 2 actions c f r
+node /C:KJ/P1:r/P2:c/C:Q/P1:r/P2:c/ terminal payoffs 1=7 2=-7
+node /C:KJ/P1:r/P2:c/C:Q/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:KJ/P1:r/P2:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:KJ/P1:r/P2:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=11 2=-11
+node /C:KJ/P1:r/P2:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:KJ/P1:r/P2:c/C:K/ player 1 actions c r
+node /C:KJ/P1:r/P2:c/C:K/P1:c/ player 2 actions c r
+node /C:KJ/P1:r/P2:c/C:K/P1:c/P2:c/ terminal payoffs 1=3 2=-3
+node /C:KJ/P1:r/P2:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:KJ/P1:r/P2:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=7 2=-7
+node /C:KJ/P1:r/P2:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:KJ/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KJ/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=11 2=-11
+node /C:KJ/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:KJ/P1:r/P2:c/C:K/P1:r/ player 2 actions c f r
+node /C:KJ/P1:r/P2:c/C:K/P1:r/P2:c/ terminal payoffs 1=7 2=-7
+node /C:KJ/P1:r/P2:c/C:K/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:KJ/P1:r/P2:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:KJ/P1:r/P2:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=11 2=-11
+node /C:KJ/P1:r/P2:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:KJ/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:KJ/P1:r/P2:r/ player 1 actions c f
+node /C:KJ/P1:r/P2:r/P1:c/ chance actions J=0.25 Q=0.5 K=0.25
+node /C:KJ/P1:r/P2:r/P1:c/C:J/ player 1 actions c r
+node /C:KJ/P1:r/P2:r/P1:c/C:J/P1:c/ player 2 actions c r
+node /C:KJ/P1:r/P2:r/P1:c/C:J/P1:c/P2:c/ terminal payoffs 1=-5 2=5
+node /C:KJ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:KJ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=-9 2=9
+node /C:KJ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:KJ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KJ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-13 2=13
+node /C:KJ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:KJ/P1:r/P2:r/P1:c/C:J/P1:r/ player 2 actions c f r
+node /C:KJ/P1:r/P2:r/P1:c/C:J/P1:r/P2:c/ terminal payoffs 1=-9 2=9
+node /C:KJ/P1:r/P2:r/P1:c/C:J/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:KJ/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:KJ/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=-13 2=13
+node /C:KJ/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:KJ/P1:r/P2:r/P1:c/C:Q/ player 1 actions c r
+node /C:KJ/P1:r/P2:r/P1:c/C:Q/P1:c/ player 2 actions c r
+node /C:KJ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:c/ terminal payoffs 1=5 2=-5
+node /C:KJ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:KJ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=9 2=-9
+node /C:KJ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:KJ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KJ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=13 2=-13
+node /C:KJ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:KJ/P1:r/P2:r/P1:c/C:Q/P1:r/ player 2 actions c f r
+node /C:KJ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:c/ terminal payoffs 1=9 2=-9
+node /C:KJ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:KJ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:KJ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=13 2=-13
+node /C:KJ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:KJ/P1:r/P2:r/P1:c/C:K/ player 1 actions c r
+node /C:KJ/P1:r/P2:r/P1:c/C:K/P1:c/ player 2 actions c r
+node /C:KJ/P1:r/P2:r/P1:c/C:K/P1:c/P2:c/ terminal payoffs 1=5 2=-5
+node /C:KJ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:KJ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=9 2=-9
+node /C:KJ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:KJ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KJ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=13 2=-13
+node /C:KJ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:KJ/P1:r/P2:r/P1:c/C:K/P1:r/ player 2 actions c f r
+node /C:KJ/P1:r/P2:r/P1:c/C:K/P1:r/P2:c/ terminal payoffs 1=9 2=-9
+node /C:KJ/P1:r/P2:r/P1:c/C:K/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:KJ/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:KJ/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=13 2=-13
+node /C:KJ/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:KJ/P1:r/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:KQ/ player 1 actions c r
+node /C:KQ/P1:c/ player 2 actions c r
+node /C:KQ/P1:c/P2:c/ chance actions J=0.5 Q=0.25 K=0.25
+node /C:KQ/P1:c/P2:c/C:J/ player 1 actions c r
+node /C:KQ/P1:c/P2:c/C:J/P1:c/ player 2 actions c r
+node /C:KQ/P1:c/P2:c/C:J/P1:c/P2:c/ terminal payoffs 1=1 2=-1
+node /C:KQ/P1:c/P2:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:KQ/P1:c/P2:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=5 2=-5
+node /C:KQ/P1:c/P2:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:KQ/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KQ/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=9 2=-9
+node /C:KQ/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:KQ/P1:c/P2:c/C:J/P1:r/ player 2 actions c f r
+node /C:KQ/P1:c/P2:c/C:J/P1:r/P2:c/ terminal payoffs 1=5 2=-5
+node /C:KQ/P1:c/P2:c/C:J/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:KQ/P1:c/P2:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:KQ/P1:c/P2:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=9 2=-9
+node /C:KQ/P1:c/P2:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:KQ/P1:c/P2:c/C:Q/ player 1 actions c r
+node /C:KQ/P1:c/P2:c/C:Q/P1:c/ player 2 actions c r
+node /C:KQ/P1:c/P2:c/C:Q/P1:c/P2:c/ terminal payoffs 1=-1 2=1
+node /C:KQ/P1:c/P2:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:KQ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=-5 2=5
+node /C:KQ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:KQ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KQ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-9 2=9
+node /C:KQ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:KQ/P1:c/P2:c/C:Q/P1:r/ player 2 actions c f r
+node /C:KQ/P1:c/P2:c/C:Q/P1:r/P2:c/ terminal payoffs 1=-5 2=5
+node /C:KQ/P1:c/P2:c/C:Q/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:KQ/P1:c/P2:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:KQ/P1:c/P2:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=-9 2=9
+node /C:KQ/P1:c/P2:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:KQ/P1:c/P2:c/C:K/ player 1 actions c r
+node /C:KQ/P1:c/P2:c/C:K/P1:c/ player 2 actions c r
+node /C:KQ/P1:c/P2:c/C:K/P1:c/P2:c/ terminal payoffs 1=1 2=-1
+node /C:KQ/P1:c/P2:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:KQ/P1:c/P2:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=5 2=-5
+node /C:KQ/P1:c/P2:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:KQ/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KQ/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=9 2=-9
+node /C:KQ/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:KQ/P1:c/P2:c/C:K/P1:r/ player 2 actions c f r
+node /C:KQ/P1:c/P2:c/C:K/P1:r/P2:c/ terminal payoffs 1=5 2=-5
+node /C:KQ/P1:c/P2:c/C:K/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:KQ/P1:c/P2:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:KQ/P1:c/P2:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=9 2=-9
+node /C:KQ/P1:c/P2:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:KQ/P1:c/P2:r/ player 1 actions c f r
+node /C:KQ/P1:c/P2:r/P1:c/ chance actions J=0.5 Q=0.25 K=0.25
+node /C:KQ/P1:c/P2:r/P1:c/C:J/ player 1 actions c r
+node /C:KQ/P1:c/P2:r/P1:c/C:J/P1:c/ player 2 actions c r
+node /C:KQ/P1:c/P2:r/P1:c/C:J/P1:c/P2:c/ terminal payoffs 1=3 2=-3
+node /C:KQ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:KQ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=7 2=-7
+node /C:KQ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:KQ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KQ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=11 2=-11
+node /C:KQ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:KQ/P1:c/P2:r/P1:c/C:J/P1:r/ player 2 actions c f r
+node /C:KQ/P1:c/P2:r/P1:c/C:J/P1:r/P2:c/ terminal payoffs 1=7 2=-7
+node /C:KQ/P1:c/P2:r/P1:c/C:J/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:KQ/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:KQ/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=11 2=-11
+node /C:KQ/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:KQ/P1:c/P2:r/P1:c/C:Q/ player 1 actions c r
+node /C:KQ/P1:c/P2:r/P1:c/C:Q/P1:c/ player 2 actions c r
+node /C:KQ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:c/ terminal payoffs 1=-3 2=3
+node /C:KQ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:KQ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=-7 2=7
+node /C:KQ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:KQ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KQ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-11 2=11
+node /C:KQ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:KQ/P1:c/P2:r/P1:c/C:Q/P1:r/ player 2 actions c f r
+node /C:KQ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:c/ terminal payoffs 1=-7 2=7
+node /C:KQ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:KQ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:KQ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=-11 2=11
+node /C:KQ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:KQ/P1:c/P2:r/P1:c/C:K/ player 1 actions c r
+node /C:KQ/P1:c/P2:r/P1:c/C:K/P1:c/ player 2 actions c r
+node /C:KQ/P1:c/P2:r/P1:c/C:K/P1:c/P2:c/ terminal payoffs 1=3 2=-3
+node /C:KQ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:KQ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=7 2=-7
+node /C:KQ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:KQ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KQ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=11 2=-11
+node /C:KQ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:KQ/P1:c/P2:r/P1:c/C:K/P1:r/ player 2 actions c f r
+node /C:KQ/P1:c/P2:r/P1:c/C:K/P1:r/P2:c/ terminal payoffs 1=7 2=-7
+node /C:KQ/P1:c/P2:r/P1:c/C:K/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:KQ/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:KQ/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=11 2=-11
+node /C:KQ/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:KQ/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:KQ/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/ chance actions J=0.5 Q=0.25 K=0.25
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:J/ player 1 actions c r
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/ player 2 actions c r
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:c/ terminal payoffs 1=5 2=-5
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=9 2=-9
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=13 2=-13
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/ player 2 actions c f r
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:c/ terminal payoffs 1=9 2=-9
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=13 2=-13
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:Q/ player 1 actions c r
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/ player 2 actions c r
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:c/ terminal payoffs 1=-5 2=5
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=-9 2=9
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-13 2=13
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/ player 2 actions c f r
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:c/ terminal payoffs 1=-9 2=9
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=-13 2=13
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:K/ player 1 actions c r
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/ player 2 actions c r
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:c/ terminal payoffs 1=5 2=-5
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=9 2=-9
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=13 2=-13
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/ player 2 actions c f r
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:c/ terminal payoffs 1=9 2=-9
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=13 2=-13
+node /C:KQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:KQ/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:KQ/P1:r/ player 2 actions c f r
+node /C:KQ/P1:r/P2:c/ chance actions J=0.5 Q=0.25 K=0.25
+node /C:KQ/P1:r/P2:c/C:J/ player 1 actions c r
+node /C:KQ/P1:r/P2:c/C:J/P1:c/ player 2 actions c r
+node /C:KQ/P1:r/P2:c/C:J/P1:c/P2:c/ terminal payoffs 1=3 2=-3
+node /C:KQ/P1:r/P2:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:KQ/P1:r/P2:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=7 2=-7
+node /C:KQ/P1:r/P2:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:KQ/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KQ/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=11 2=-11
+node /C:KQ/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:KQ/P1:r/P2:c/C:J/P1:r/ player 2 actions c f r
+node /C:KQ/P1:r/P2:c/C:J/P1:r/P2:c/ terminal payoffs 1=7 2=-7
+node /C:KQ/P1:r/P2:c/C:J/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:KQ/P1:r/P2:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:KQ/P1:r/P2:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=11 2=-11
+node /C:KQ/P1:r/P2:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:KQ/P1:r/P2:c/C:Q/ player 1 actions c r
+node /C:KQ/P1:r/P2:c/C:Q/P1:c/ player 2 actions c r
+node /C:KQ/P1:r/P2:c/C:Q/P1:c/P2:c/ terminal payoffs 1=-3 2=3
+node /C:KQ/P1:r/P2:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:KQ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=-7 2=7
+node /C:KQ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:KQ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KQ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-11 2=11
+node /C:KQ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:KQ/P1:r/P2:c/C:Q/P1:r/ player 2 actions c f r
+node /C:KQ/P1:r/P2:c/C:Q/P1:r/P2:c/ terminal payoffs 1=-7 2=7
+node /C:KQ/P1:r/P2:c/C:Q/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:KQ/P1:r/P2:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:KQ/P1:r/P2:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=-11 2=11
+node /C:KQ/P1:r/P2:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:KQ/P1:r/P2:c/C:K/ player 1 actions c r
+node /C:KQ/P1:r/P2:c/C:K/P1:c/ player 2 actions c r
+node /C:KQ/P1:r/P2:c/C:K/P1:c/P2:c/ terminal payoffs 1=3 2=-3
+node /C:KQ/P1:r/P2:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:KQ/P1:r/P2:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=7 2=-7
+node /C:KQ/P1:r/P2:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:KQ/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KQ/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=11 2=-11
+node /C:KQ/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:KQ/P1:r/P2:c/C:K/P1:r/ player 2 actions c f r
+node /C:KQ/P1:r/P2:c/C:K/P1:r/P2:c/ terminal payoffs 1=7 2=-7
+node /C:KQ/P1:r/P2:c/C:K/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:KQ/P1:r/P2:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:KQ/P1:r/P2:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=11 2=-11
+node /C:KQ/P1:r/P2:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:KQ/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:KQ/P1:r/P2:r/ player 1 actions c f
+node /C:KQ/P1:r/P2:r/P1:c/ chance actions J=0.5 Q=0.25 K=0.25
+node /C:KQ/P1:r/P2:r/P1:c/C:J/ player 1 actions c r
+node /C:KQ/P1:r/P2:r/P1:c/C:J/P1:c/ player 2 actions c r
+node /C:KQ/P1:r/P2:r/P1:c/C:J/P1:c/P2:c/ terminal payoffs 1=5 2=-5
+node /C:KQ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:KQ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=9 2=-9
+node /C:KQ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:KQ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KQ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=13 2=-13
+node /C:KQ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:KQ/P1:r/P2:r/P1:c/C:J/P1:r/ player 2 actions c f r
+node /C:KQ/P1:r/P2:r/P1:c/C:J/P1:r/P2:c/ terminal payoffs 1=9 2=-9
+node /C:KQ/P1:r/P2:r/P1:c/C:J/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:KQ/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:KQ/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=13 2=-13
+node /C:KQ/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:KQ/P1:r/P2:r/P1:c/C:Q/ player 1 actions c r
+node /C:KQ/P1:r/P2:r/P1:c/C:Q/P1:c/ player 2 actions c r
+node /C:KQ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:c/ terminal payoffs 1=-5 2=5
+node /C:KQ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:KQ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=-9 2=9
+node /C:KQ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:KQ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KQ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=-13 2=13
+node /C:KQ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:KQ/P1:r/P2:r/P1:c/C:Q/P1:r/ player 2 actions c f r
+node /C:KQ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:c/ terminal payoffs 1=-9 2=9
+node /C:KQ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:KQ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:KQ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=-13 2=13
+node /C:KQ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:KQ/P1:r/P2:r/P1:c/C:K/ player 1 actions c r
+node /C:KQ/P1:r/P2:r/P1:c/C:K/P1:c/ player 2 actions c r
+node /C:KQ/P1:r/P2:r/P1:c/C:K/P1:c/P2:c/ terminal payoffs 1=5 2=-5
+node /C:KQ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/ player 1 actions c f r
+node /C:KQ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:c/ terminal payoffs 1=9 2=-9
+node /C:KQ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:KQ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KQ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=13 2=-13
+node /C:KQ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:KQ/P1:r/P2:r/P1:c/C:K/P1:r/ player 2 actions c f r
+node /C:KQ/P1:r/P2:r/P1:c/C:K/P1:r/P2:c/ terminal payoffs 1=9 2=-9
+node /C:KQ/P1:r/P2:r/P1:c/C:K/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:KQ/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/ player 1 actions c f
+node /C:KQ/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/P1:c/ terminal payoffs 1=13 2=-13
+node /C:KQ/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:KQ/P1:r/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:KK/ player 1 actions c r
+node /C:KK/P1:c/ player 2 actions c r
+node /C:KK/P1:c/P2:c/ chance actions J=0.5 Q=0.5
+node /C:KK/P1:c/P2:c/C:J/ player 1 actions c r
+node /C:KK/P1:c/P2:c/C:J/P1:c/ player 2 actions c r
+node /C:KK/P1:c/P2:c/C:J/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:KK/P1:c/P2:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:KK/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KK/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:KK/P1:c/P2:c/C:J/P1:r/ player 2 actions c f r
+node /C:KK/P1:c/P2:c/C:J/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:c/C:J/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:KK/P1:c/P2:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:KK/P1:c/P2:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:KK/P1:c/P2:c/C:Q/ player 1 actions c r
+node /C:KK/P1:c/P2:c/C:Q/P1:c/ player 2 actions c r
+node /C:KK/P1:c/P2:c/C:Q/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:KK/P1:c/P2:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:KK/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KK/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:KK/P1:c/P2:c/C:Q/P1:r/ player 2 actions c f r
+node /C:KK/P1:c/P2:c/C:Q/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:c/C:Q/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:KK/P1:c/P2:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:KK/P1:c/P2:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:KK/P1:c/P2:r/ player 1 actions c f r
+node /C:KK/P1:c/P2:r/P1:c/ chance actions J=0.5 Q=0.5
+node /C:KK/P1:c/P2:r/P1:c/C:J/ player 1 actions c r
+node /C:KK/P1:c/P2:r/P1:c/C:J/P1:c/ player 2 actions c r
+node /C:KK/P1:c/P2:r/P1:c/C:J/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:KK/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:KK/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KK/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:KK/P1:c/P2:r/P1:c/C:J/P1:r/ player 2 actions c f r
+node /C:KK/P1:c/P2:r/P1:c/C:J/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:r/P1:c/C:J/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:KK/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:KK/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:KK/P1:c/P2:r/P1:c/C:Q/ player 1 actions c r
+node /C:KK/P1:c/P2:r/P1:c/C:Q/P1:c/ player 2 actions c r
+node /C:KK/P1:c/P2:r/P1:c/C:Q/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:KK/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:KK/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KK/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:KK/P1:c/P2:r/P1:c/C:Q/P1:r/ player 2 actions c f r
+node /C:KK/P1:c/P2:r/P1:c/C:Q/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:r/P1:c/C:Q/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:KK/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:KK/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:KK/P1:c/P2:r/P1:f/ terminal payoffs 1=-1 2=1
+node /C:KK/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KK/P1:c/P2:r/P1:r/P2:c/ chance actions J=0.5 Q=0.5
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:J/ player 1 actions c r
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/ player 2 actions c r
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/ player 2 actions c f r
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:Q/ player 1 actions c r
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/ player 2 actions c r
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/ player 2 actions c f r
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:KK/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:KK/P1:r/ player 2 actions c f r
+node /C:KK/P1:r/P2:c/ chance actions J=0.5 Q=0.5
+node /C:KK/P1:r/P2:c/C:J/ player 1 actions c r
+node /C:KK/P1:r/P2:c/C:J/P1:c/ player 2 actions c r
+node /C:KK/P1:r/P2:c/C:J/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:r/P2:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:KK/P1:r/P2:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:r/P2:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:KK/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KK/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:KK/P1:r/P2:c/C:J/P1:r/ player 2 actions c f r
+node /C:KK/P1:r/P2:c/C:J/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:r/P2:c/C:J/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:KK/P1:r/P2:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:KK/P1:r/P2:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:r/P2:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:KK/P1:r/P2:c/C:Q/ player 1 actions c r
+node /C:KK/P1:r/P2:c/C:Q/P1:c/ player 2 actions c r
+node /C:KK/P1:r/P2:c/C:Q/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:r/P2:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:KK/P1:r/P2:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:r/P2:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+node /C:KK/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KK/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=7 2=-7
+node /C:KK/P1:r/P2:c/C:Q/P1:r/ player 2 actions c f r
+node /C:KK/P1:r/P2:c/C:Q/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:r/P2:c/C:Q/P1:r/P2:f/ terminal payoffs 1=3 2=-3
+node /C:KK/P1:r/P2:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:KK/P1:r/P2:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:r/P2:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-7 2=7
+node /C:KK/P1:r/P2:f/ terminal payoffs 1=1 2=-1
+node /C:KK/P1:r/P2:r/ player 1 actions c f
+node /C:KK/P1:r/P2:r/P1:c/ chance actions J=0.5 Q=0.5
+node /C:KK/P1:r/P2:r/P1:c/C:J/ player 1 actions c r
+node /C:KK/P1:r/P2:r/P1:c/C:J/P1:c/ player 2 actions c r
+node /C:KK/P1:r/P2:r/P1:c/C:J/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/ player 1 actions c f r
+node /C:KK/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:KK/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KK/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:KK/P1:r/P2:r/P1:c/C:J/P1:r/ player 2 actions c f r
+node /C:KK/P1:r/P2:r/P1:c/C:J/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:r/P2:r/P1:c/C:J/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:KK/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/ player 1 actions c f
+node /C:KK/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:KK/P1:r/P2:r/P1:c/C:Q/ player 1 actions c r
+node /C:KK/P1:r/P2:r/P1:c/C:Q/P1:c/ player 2 actions c r
+node /C:KK/P1:r/P2:r/P1:c/C:Q/P1:c/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/ player 1 actions c f r
+node /C:KK/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:f/ terminal payoffs 1=-5 2=5
+node /C:KK/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ player 2 actions c f
+node /C:KK/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/P2:f/ terminal payoffs 1=9 2=-9
+node /C:KK/P1:r/P2:r/P1:c/C:Q/P1:r/ player 2 actions c f r
+node /C:KK/P1:r/P2:r/P1:c/C:Q/P1:r/P2:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:r/P2:r/P1:c/C:Q/P1:r/P2:f/ terminal payoffs 1=5 2=-5
+node /C:KK/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/ player 1 actions c f
+node /C:KK/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/P1:c/ terminal payoffs 1=0 2=0
+node /C:KK/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/P1:f/ terminal payoffs 1=-9 2=9
+node /C:KK/P1:r/P2:r/P1:f/ terminal payoffs 1=-3 2=3
+infoset /C:J?/ nodes /C:JJ/ /C:JQ/ /C:JK/
+infoset /C:J?/P1:c/P2:c/C:J/ nodes /C:JQ/P1:c/P2:c/C:J/ /C:JK/P1:c/P2:c/C:J/
+infoset /C:J?/P1:c/P2:c/C:J/P1:c/P2:r/ nodes /C:JQ/P1:c/P2:c/C:J/P1:c/P2:r/ /C:JK/P1:c/P2:c/C:J/P1:c/P2:r/
+infoset /C:J?/P1:c/P2:c/C:J/P1:r/P2:r/ nodes /C:JQ/P1:c/P2:c/C:J/P1:r/P2:r/ /C:JK/P1:c/P2:c/C:J/P1:r/P2:r/
+infoset /C:J?/P1:c/P2:c/C:K/ nodes /C:JJ/P1:c/P2:c/C:K/ /C:JQ/P1:c/P2:c/C:K/ /C:JK/P1:c/P2:c/C:K/
+infoset /C:J?/P1:c/P2:c/C:K/P1:c/P2:r/ nodes /C:JJ/P1:c/P2:c/C:K/P1:c/P2:r/ /C:JQ/P1:c/P2:c/C:K/P1:c/P2:r/ /C:JK/P1:c/P2:c/C:K/P1:c/P2:r/
+infoset /C:J?/P1:c/P2:c/C:K/P1:r/P2:r/ nodes /C:JJ/P1:c/P2:c/C:K/P1:r/P2:r/ /C:JQ/P1:c/P2:c/C:K/P1:r/P2:r/ /C:JK/P1:c/P2:c/C:K/P1:r/P2:r/
+infoset /C:J?/P1:c/P2:c/C:Q/ nodes /C:JJ/P1:c/P2:c/C:Q/ /C:JQ/P1:c/P2:c/C:Q/ /C:JK/P1:c/P2:c/C:Q/
+infoset /C:J?/P1:c/P2:c/C:Q/P1:c/P2:r/ nodes /C:JJ/P1:c/P2:c/C:Q/P1:c/P2:r/ /C:JQ/P1:c/P2:c/C:Q/P1:c/P2:r/ /C:JK/P1:c/P2:c/C:Q/P1:c/P2:r/
+infoset /C:J?/P1:c/P2:c/C:Q/P1:r/P2:r/ nodes /C:JJ/P1:c/P2:c/C:Q/P1:r/P2:r/ /C:JQ/P1:c/P2:c/C:Q/P1:r/P2:r/ /C:JK/P1:c/P2:c/C:Q/P1:r/P2:r/
+infoset /C:J?/P1:c/P2:r/ nodes /C:JJ/P1:c/P2:r/ /C:JQ/P1:c/P2:r/ /C:JK/P1:c/P2:r/
+infoset /C:J?/P1:c/P2:r/P1:c/C:J/ nodes /C:JQ/P1:c/P2:r/P1:c/C:J/ /C:JK/P1:c/P2:r/P1:c/C:J/
+infoset /C:J?/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/ nodes /C:JQ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/ /C:JK/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/
+infoset /C:J?/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/ nodes /C:JQ/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/ /C:JK/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/
+infoset /C:J?/P1:c/P2:r/P1:c/C:K/ nodes /C:JJ/P1:c/P2:r/P1:c/C:K/ /C:JQ/P1:c/P2:r/P1:c/C:K/ /C:JK/P1:c/P2:r/P1:c/C:K/
+infoset /C:J?/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/ nodes /C:JJ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/ /C:JQ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/ /C:JK/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/
+infoset /C:J?/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/ nodes /C:JJ/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/ /C:JQ/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/ /C:JK/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/
+infoset /C:J?/P1:c/P2:r/P1:c/C:Q/ nodes /C:JJ/P1:c/P2:r/P1:c/C:Q/ /C:JQ/P1:c/P2:r/P1:c/C:Q/ /C:JK/P1:c/P2:r/P1:c/C:Q/
+infoset /C:J?/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/ nodes /C:JJ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/ /C:JQ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/ /C:JK/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/
+infoset /C:J?/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/ nodes /C:JJ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/ /C:JQ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/ /C:JK/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/
+infoset /C:J?/P1:c/P2:r/P1:r/P2:c/C:J/ nodes /C:JQ/P1:c/P2:r/P1:r/P2:c/C:J/ /C:JK/P1:c/P2:r/P1:r/P2:c/C:J/
+infoset /C:J?/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/ nodes /C:JQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/ /C:JK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/
+infoset /C:J?/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/ nodes /C:JQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/ /C:JK/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/
+infoset /C:J?/P1:c/P2:r/P1:r/P2:c/C:K/ nodes /C:JJ/P1:c/P2:r/P1:r/P2:c/C:K/ /C:JQ/P1:c/P2:r/P1:r/P2:c/C:K/ /C:JK/P1:c/P2:r/P1:r/P2:c/C:K/
+infoset /C:J?/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/ nodes /C:JJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/ /C:JQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/ /C:JK/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/
+infoset /C:J?/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/ nodes /C:JJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/ /C:JQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/ /C:JK/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/
+infoset /C:J?/P1:c/P2:r/P1:r/P2:c/C:Q/ nodes /C:JJ/P1:c/P2:r/P1:r/P2:c/C:Q/ /C:JQ/P1:c/P2:r/P1:r/P2:c/C:Q/ /C:JK/P1:c/P2:r/P1:r/P2:c/C:Q/
+infoset /C:J?/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/ nodes /C:JJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/ /C:JQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/ /C:JK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/
+infoset /C:J?/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/ nodes /C:JJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/ /C:JQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/ /C:JK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/
+infoset /C:J?/P1:r/P2:c/C:J/ nodes /C:JQ/P1:r/P2:c/C:J/ /C:JK/P1:r/P2:c/C:J/
+infoset /C:J?/P1:r/P2:c/C:J/P1:c/P2:r/ nodes /C:JQ/P1:r/P2:c/C:J/P1:c/P2:r/ /C:JK/P1:r/P2:c/C:J/P1:c/P2:r/
+infoset /C:J?/P1:r/P2:c/C:J/P1:r/P2:r/ nodes /C:JQ/P1:r/P2:c/C:J/P1:r/P2:r/ /C:JK/P1:r/P2:c/C:J/P1:r/P2:r/
+infoset /C:J?/P1:r/P2:c/C:K/ nodes /C:JJ/P1:r/P2:c/C:K/ /C:JQ/P1:r/P2:c/C:K/ /C:JK/P1:r/P2:c/C:K/
+infoset /C:J?/P1:r/P2:c/C:K/P1:c/P2:r/ nodes /C:JJ/P1:r/P2:c/C:K/P1:c/P2:r/ /C:JQ/P1:r/P2:c/C:K/P1:c/P2:r/ /C:JK/P1:r/P2:c/C:K/P1:c/P2:r/
+infoset /C:J?/P1:r/P2:c/C:K/P1:r/P2:r/ nodes /C:JJ/P1:r/P2:c/C:K/P1:r/P2:r/ /C:JQ/P1:r/P2:c/C:K/P1:r/P2:r/ /C:JK/P1:r/P2:c/C:K/P1:r/P2:r/
+infoset /C:J?/P1:r/P2:c/C:Q/ nodes /C:JJ/P1:r/P2:c/C:Q/ /C:JQ/P1:r/P2:c/C:Q/ /C:JK/P1:r/P2:c/C:Q/
+infoset /C:J?/P1:r/P2:c/C:Q/P1:c/P2:r/ nodes /C:JJ/P1:r/P2:c/C:Q/P1:c/P2:r/ /C:JQ/P1:r/P2:c/C:Q/P1:c/P2:r/ /C:JK/P1:r/P2:c/C:Q/P1:c/P2:r/
+infoset /C:J?/P1:r/P2:c/C:Q/P1:r/P2:r/ nodes /C:JJ/P1:r/P2:c/C:Q/P1:r/P2:r/ /C:JQ/P1:r/P2:c/C:Q/P1:r/P2:r/ /C:JK/P1:r/P2:c/C:Q/P1:r/P2:r/
+infoset /C:J?/P1:r/P2:r/ nodes /C:JJ/P1:r/P2:r/ /C:JQ/P1:r/P2:r/ /C:JK/P1:r/P2:r/
+infoset /C:J?/P1:r/P2:r/P1:c/C:J/ nodes /C:JQ/P1:r/P2:r/P1:c/C:J/ /C:JK/P1:r/P2:r/P1:c/C:J/
+infoset /C:J?/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/ nodes /C:JQ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/ /C:JK/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/
+infoset /C:J?/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/ nodes /C:JQ/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/ /C:JK/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/
+infoset /C:J?/P1:r/P2:r/P1:c/C:K/ nodes /C:JJ/P1:r/P2:r/P1:c/C:K/ /C:JQ/P1:r/P2:r/P1:c/C:K/ /C:JK/P1:r/P2:r/P1:c/C:K/
+infoset /C:J?/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/ nodes /C:JJ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/ /C:JQ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/ /C:JK/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/
+infoset /C:J?/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/ nodes /C:JJ/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/ /C:JQ/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/ /C:JK/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/
+infoset /C:J?/P1:r/P2:r/P1:c/C:Q/ nodes /C:JJ/P1:r/P2:r/P1:c/C:Q/ /C:JQ/P1:r/P2:r/P1:c/C:Q/ /C:JK/P1:r/P2:r/P1:c/C:Q/
+infoset /C:J?/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/ nodes /C:JJ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/ /C:JQ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/ /C:JK/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/
+infoset /C:J?/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/ nodes /C:JJ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/ /C:JQ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/ /C:JK/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/
+infoset /C:K?/ nodes /C:KJ/ /C:KQ/ /C:KK/
+infoset /C:K?/P1:c/P2:c/C:J/ nodes /C:KJ/P1:c/P2:c/C:J/ /C:KQ/P1:c/P2:c/C:J/ /C:KK/P1:c/P2:c/C:J/
+infoset /C:K?/P1:c/P2:c/C:J/P1:c/P2:r/ nodes /C:KJ/P1:c/P2:c/C:J/P1:c/P2:r/ /C:KQ/P1:c/P2:c/C:J/P1:c/P2:r/ /C:KK/P1:c/P2:c/C:J/P1:c/P2:r/
+infoset /C:K?/P1:c/P2:c/C:J/P1:r/P2:r/ nodes /C:KJ/P1:c/P2:c/C:J/P1:r/P2:r/ /C:KQ/P1:c/P2:c/C:J/P1:r/P2:r/ /C:KK/P1:c/P2:c/C:J/P1:r/P2:r/
+infoset /C:K?/P1:c/P2:c/C:K/ nodes /C:KJ/P1:c/P2:c/C:K/ /C:KQ/P1:c/P2:c/C:K/
+infoset /C:K?/P1:c/P2:c/C:K/P1:c/P2:r/ nodes /C:KJ/P1:c/P2:c/C:K/P1:c/P2:r/ /C:KQ/P1:c/P2:c/C:K/P1:c/P2:r/
+infoset /C:K?/P1:c/P2:c/C:K/P1:r/P2:r/ nodes /C:KJ/P1:c/P2:c/C:K/P1:r/P2:r/ /C:KQ/P1:c/P2:c/C:K/P1:r/P2:r/
+infoset /C:K?/P1:c/P2:c/C:Q/ nodes /C:KJ/P1:c/P2:c/C:Q/ /C:KQ/P1:c/P2:c/C:Q/ /C:KK/P1:c/P2:c/C:Q/
+infoset /C:K?/P1:c/P2:c/C:Q/P1:c/P2:r/ nodes /C:KJ/P1:c/P2:c/C:Q/P1:c/P2:r/ /C:KQ/P1:c/P2:c/C:Q/P1:c/P2:r/ /C:KK/P1:c/P2:c/C:Q/P1:c/P2:r/
+infoset /C:K?/P1:c/P2:c/C:Q/P1:r/P2:r/ nodes /C:KJ/P1:c/P2:c/C:Q/P1:r/P2:r/ /C:KQ/P1:c/P2:c/C:Q/P1:r/P2:r/ /C:KK/P1:c/P2:c/C:Q/P1:r/P2:r/
+infoset /C:K?/P1:c/P2:r/ nodes /C:KJ/P1:c/P2:r/ /C:KQ/P1:c/P2:r/ /C:KK/P1:c/P2:r/
+infoset /C:K?/P1:c/P2:r/P1:c/C:J/ nodes /C:KJ/P1:c/P2:r/P1:c/C:J/ /C:KQ/P1:c/P2:r/P1:c/C:J/ /C:KK/P1:c/P2:r/P1:c/C:J/
+infoset /C:K?/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/ nodes /C:KJ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/ /C:KQ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/ /C:KK/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/
+infoset /C:K?/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/ nodes /C:KJ/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/ /C:KQ/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/ /C:KK/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/
+infoset /C:K?/P1:c/P2:r/P1:c/C:K/ nodes /C:KJ/P1:c/P2:r/P1:c/C:K/ /C:KQ/P1:c/P2:r/P1:c/C:K/
+infoset /C:K?/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/ nodes /C:KJ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/ /C:KQ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/
+infoset /C:K?/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/ nodes /C:KJ/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/ /C:KQ/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/
+infoset /C:K?/P1:c/P2:r/P1:c/C:Q/ nodes /C:KJ/P1:c/P2:r/P1:c/C:Q/ /C:KQ/P1:c/P2:r/P1:c/C:Q/ /C:KK/P1:c/P2:r/P1:c/C:Q/
+infoset /C:K?/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/ nodes /C:KJ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/ /C:KQ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/ /C:KK/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/
+infoset /C:K?/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/ nodes /C:KJ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/ /C:KQ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/ /C:KK/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/
+infoset /C:K?/P1:c/P2:r/P1:r/P2:c/C:J/ nodes /C:KJ/P1:c/P2:r/P1:r/P2:c/C:J/ /C:KQ/P1:c/P2:r/P1:r/P2:c/C:J/ /C:KK/P1:c/P2:r/P1:r/P2:c/C:J/
+infoset /C:K?/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/ nodes /C:KJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/ /C:KQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/ /C:KK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/
+infoset /C:K?/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/ nodes /C:KJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/ /C:KQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/ /C:KK/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/
+infoset /C:K?/P1:c/P2:r/P1:r/P2:c/C:K/ nodes /C:KJ/P1:c/P2:r/P1:r/P2:c/C:K/ /C:KQ/P1:c/P2:r/P1:r/P2:c/C:K/
+infoset /C:K?/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/ nodes /C:KJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/ /C:KQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/
+infoset /C:K?/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/ nodes /C:KJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/ /C:KQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/
+infoset /C:K?/P1:c/P2:r/P1:r/P2:c/C:Q/ nodes /C:KJ/P1:c/P2:r/P1:r/P2:c/C:Q/ /C:KQ/P1:c/P2:r/P1:r/P2:c/C:Q/ /C:KK/P1:c/P2:r/P1:r/P2:c/C:Q/
+infoset /C:K?/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/ nodes /C:KJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/ /C:KQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/ /C:KK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/
+infoset /C:K?/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/ nodes /C:KJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/ /C:KQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/ /C:KK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/
+infoset /C:K?/P1:r/P2:c/C:J/ nodes /C:KJ/P1:r/P2:c/C:J/ /C:KQ/P1:r/P2:c/C:J/ /C:KK/P1:r/P2:c/C:J/
+infoset /C:K?/P1:r/P2:c/C:J/P1:c/P2:r/ nodes /C:KJ/P1:r/P2:c/C:J/P1:c/P2:r/ /C:KQ/P1:r/P2:c/C:J/P1:c/P2:r/ /C:KK/P1:r/P2:c/C:J/P1:c/P2:r/
+infoset /C:K?/P1:r/P2:c/C:J/P1:r/P2:r/ nodes /C:KJ/P1:r/P2:c/C:J/P1:r/P2:r/ /C:KQ/P1:r/P2:c/C:J/P1:r/P2:r/ /C:KK/P1:r/P2:c/C:J/P1:r/P2:r/
+infoset /C:K?/P1:r/P2:c/C:K/ nodes /C:KJ/P1:r/P2:c/C:K/ /C:KQ/P1:r/P2:c/C:K/
+infoset /C:K?/P1:r/P2:c/C:K/P1:c/P2:r/ nodes /C:KJ/P1:r/P2:c/C:K/P1:c/P2:r/ /C:KQ/P1:r/P2:c/C:K/P1:c/P2:r/
+infoset /C:K?/P1:r/P2:c/C:K/P1:r/P2:r/ nodes /C:KJ/P1:r/P2:c/C:K/P1:r/P2:r/ /C:KQ/P1:r/P2:c/C:K/P1:r/P2:r/
+infoset /C:K?/P1:r/P2:c/C:Q/ nodes /C:KJ/P1:r/P2:c/C:Q/ /C:KQ/P1:r/P2:c/C:Q/ /C:KK/P1:r/P2:c/C:Q/
+infoset /C:K?/P1:r/P2:c/C:Q/P1:c/P2:r/ nodes /C:KJ/P1:r/P2:c/C:Q/P1:c/P2:r/ /C:KQ/P1:r/P2:c/C:Q/P1:c/P2:r/ /C:KK/P1:r/P2:c/C:Q/P1:c/P2:r/
+infoset /C:K?/P1:r/P2:c/C:Q/P1:r/P2:r/ nodes /C:KJ/P1:r/P2:c/C:Q/P1:r/P2:r/ /C:KQ/P1:r/P2:c/C:Q/P1:r/P2:r/ /C:KK/P1:r/P2:c/C:Q/P1:r/P2:r/
+infoset /C:K?/P1:r/P2:r/ nodes /C:KJ/P1:r/P2:r/ /C:KQ/P1:r/P2:r/ /C:KK/P1:r/P2:r/
+infoset /C:K?/P1:r/P2:r/P1:c/C:J/ nodes /C:KJ/P1:r/P2:r/P1:c/C:J/ /C:KQ/P1:r/P2:r/P1:c/C:J/ /C:KK/P1:r/P2:r/P1:c/C:J/
+infoset /C:K?/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/ nodes /C:KJ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/ /C:KQ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/ /C:KK/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/
+infoset /C:K?/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/ nodes /C:KJ/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/ /C:KQ/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/ /C:KK/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/
+infoset /C:K?/P1:r/P2:r/P1:c/C:K/ nodes /C:KJ/P1:r/P2:r/P1:c/C:K/ /C:KQ/P1:r/P2:r/P1:c/C:K/
+infoset /C:K?/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/ nodes /C:KJ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/ /C:KQ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/
+infoset /C:K?/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/ nodes /C:KJ/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/ /C:KQ/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/
+infoset /C:K?/P1:r/P2:r/P1:c/C:Q/ nodes /C:KJ/P1:r/P2:r/P1:c/C:Q/ /C:KQ/P1:r/P2:r/P1:c/C:Q/ /C:KK/P1:r/P2:r/P1:c/C:Q/
+infoset /C:K?/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/ nodes /C:KJ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/ /C:KQ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/ /C:KK/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/
+infoset /C:K?/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/ nodes /C:KJ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/ /C:KQ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/ /C:KK/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/
+infoset /C:Q?/ nodes /C:QJ/ /C:QQ/ /C:QK/
+infoset /C:Q?/P1:c/P2:c/C:J/ nodes /C:QJ/P1:c/P2:c/C:J/ /C:QQ/P1:c/P2:c/C:J/ /C:QK/P1:c/P2:c/C:J/
+infoset /C:Q?/P1:c/P2:c/C:J/P1:c/P2:r/ nodes /C:QJ/P1:c/P2:c/C:J/P1:c/P2:r/ /C:QQ/P1:c/P2:c/C:J/P1:c/P2:r/ /C:QK/P1:c/P2:c/C:J/P1:c/P2:r/
+infoset /C:Q?/P1:c/P2:c/C:J/P1:r/P2:r/ nodes /C:QJ/P1:c/P2:c/C:J/P1:r/P2:r/ /C:QQ/P1:c/P2:c/C:J/P1:r/P2:r/ /C:QK/P1:c/P2:c/C:J/P1:r/P2:r/
+infoset /C:Q?/P1:c/P2:c/C:K/ nodes /C:QJ/P1:c/P2:c/C:K/ /C:QQ/P1:c/P2:c/C:K/ /C:QK/P1:c/P2:c/C:K/
+infoset /C:Q?/P1:c/P2:c/C:K/P1:c/P2:r/ nodes /C:QJ/P1:c/P2:c/C:K/P1:c/P2:r/ /C:QQ/P1:c/P2:c/C:K/P1:c/P2:r/ /C:QK/P1:c/P2:c/C:K/P1:c/P2:r/
+infoset /C:Q?/P1:c/P2:c/C:K/P1:r/P2:r/ nodes /C:QJ/P1:c/P2:c/C:K/P1:r/P2:r/ /C:QQ/P1:c/P2:c/C:K/P1:r/P2:r/ /C:QK/P1:c/P2:c/C:K/P1:r/P2:r/
+infoset /C:Q?/P1:c/P2:c/C:Q/ nodes /C:QJ/P1:c/P2:c/C:Q/ /C:QK/P1:c/P2:c/C:Q/
+infoset /C:Q?/P1:c/P2:c/C:Q/P1:c/P2:r/ nodes /C:QJ/P1:c/P2:c/C:Q/P1:c/P2:r/ /C:QK/P1:c/P2:c/C:Q/P1:c/P2:r/
+infoset /C:Q?/P1:c/P2:c/C:Q/P1:r/P2:r/ nodes /C:QJ/P1:c/P2:c/C:Q/P1:r/P2:r/ /C:QK/P1:c/P2:c/C:Q/P1:r/P2:r/
+infoset /C:Q?/P1:c/P2:r/ nodes /C:QJ/P1:c/P2:r/ /C:QQ/P1:c/P2:r/ /C:QK/P1:c/P2:r/
+infoset /C:Q?/P1:c/P2:r/P1:c/C:J/ nodes /C:QJ/P1:c/P2:r/P1:c/C:J/ /C:QQ/P1:c/P2:r/P1:c/C:J/ /C:QK/P1:c/P2:r/P1:c/C:J/
+infoset /C:Q?/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/ nodes /C:QJ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/ /C:QQ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/ /C:QK/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/
+infoset /C:Q?/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/ nodes /C:QJ/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/ /C:QQ/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/ /C:QK/P1:c/P2:r/P1:c/C:J/P1:r/P2:r/
+infoset /C:Q?/P1:c/P2:r/P1:c/C:K/ nodes /C:QJ/P1:c/P2:r/P1:c/C:K/ /C:QQ/P1:c/P2:r/P1:c/C:K/ /C:QK/P1:c/P2:r/P1:c/C:K/
+infoset /C:Q?/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/ nodes /C:QJ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/ /C:QQ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/ /C:QK/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/
+infoset /C:Q?/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/ nodes /C:QJ/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/ /C:QQ/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/ /C:QK/P1:c/P2:r/P1:c/C:K/P1:r/P2:r/
+infoset /C:Q?/P1:c/P2:r/P1:c/C:Q/ nodes /C:QJ/P1:c/P2:r/P1:c/C:Q/ /C:QK/P1:c/P2:r/P1:c/C:Q/
+infoset /C:Q?/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/ nodes /C:QJ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/ /C:QK/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/
+infoset /C:Q?/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/ nodes /C:QJ/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/ /C:QK/P1:c/P2:r/P1:c/C:Q/P1:r/P2:r/
+infoset /C:Q?/P1:c/P2:r/P1:r/P2:c/C:J/ nodes /C:QJ/P1:c/P2:r/P1:r/P2:c/C:J/ /C:QQ/P1:c/P2:r/P1:r/P2:c/C:J/ /C:QK/P1:c/P2:r/P1:r/P2:c/C:J/
+infoset /C:Q?/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/ nodes /C:QJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/ /C:QQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/ /C:QK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/
+infoset /C:Q?/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/ nodes /C:QJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/ /C:QQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/ /C:QK/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/P2:r/
+infoset /C:Q?/P1:c/P2:r/P1:r/P2:c/C:K/ nodes /C:QJ/P1:c/P2:r/P1:r/P2:c/C:K/ /C:QQ/P1:c/P2:r/P1:r/P2:c/C:K/ /C:QK/P1:c/P2:r/P1:r/P2:c/C:K/
+infoset /C:Q?/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/ nodes /C:QJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/ /C:QQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/ /C:QK/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/
+infoset /C:Q?/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/ nodes /C:QJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/ /C:QQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/ /C:QK/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/P2:r/
+infoset /C:Q?/P1:c/P2:r/P1:r/P2:c/C:Q/ nodes /C:QJ/P1:c/P2:r/P1:r/P2:c/C:Q/ /C:QK/P1:c/P2:r/P1:r/P2:c/C:Q/
+infoset /C:Q?/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/ nodes /C:QJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/ /C:QK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/
+infoset /C:Q?/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/ nodes /C:QJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/ /C:QK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/P2:r/
+infoset /C:Q?/P1:r/P2:c/C:J/ nodes /C:QJ/P1:r/P2:c/C:J/ /C:QQ/P1:r/P2:c/C:J/ /C:QK/P1:r/P2:c/C:J/
+infoset /C:Q?/P1:r/P2:c/C:J/P1:c/P2:r/ nodes /C:QJ/P1:r/P2:c/C:J/P1:c/P2:r/ /C:QQ/P1:r/P2:c/C:J/P1:c/P2:r/ /C:QK/P1:r/P2:c/C:J/P1:c/P2:r/
+infoset /C:Q?/P1:r/P2:c/C:J/P1:r/P2:r/ nodes /C:QJ/P1:r/P2:c/C:J/P1:r/P2:r/ /C:QQ/P1:r/P2:c/C:J/P1:r/P2:r/ /C:QK/P1:r/P2:c/C:J/P1:r/P2:r/
+infoset /C:Q?/P1:r/P2:c/C:K/ nodes /C:QJ/P1:r/P2:c/C:K/ /C:QQ/P1:r/P2:c/C:K/ /C:QK/P1:r/P2:c/C:K/
+infoset /C:Q?/P1:r/P2:c/C:K/P1:c/P2:r/ nodes /C:QJ/P1:r/P2:c/C:K/P1:c/P2:r/ /C:QQ/P1:r/P2:c/C:K/P1:c/P2:r/ /C:QK/P1:r/P2:c/C:K/P1:c/P2:r/
+infoset /C:Q?/P1:r/P2:c/C:K/P1:r/P2:r/ nodes /C:QJ/P1:r/P2:c/C:K/P1:r/P2:r/ /C:QQ/P1:r/P2:c/C:K/P1:r/P2:r/ /C:QK/P1:r/P2:c/C:K/P1:r/P2:r/
+infoset /C:Q?/P1:r/P2:c/C:Q/ nodes /C:QJ/P1:r/P2:c/C:Q/ /C:QK/P1:r/P2:c/C:Q/
+infoset /C:Q?/P1:r/P2:c/C:Q/P1:c/P2:r/ nodes /C:QJ/P1:r/P2:c/C:Q/P1:c/P2:r/ /C:QK/P1:r/P2:c/C:Q/P1:c/P2:r/
+infoset /C:Q?/P1:r/P2:c/C:Q/P1:r/P2:r/ nodes /C:QJ/P1:r/P2:c/C:Q/P1:r/P2:r/ /C:QK/P1:r/P2:c/C:Q/P1:r/P2:r/
+infoset /C:Q?/P1:r/P2:r/ nodes /C:QJ/P1:r/P2:r/ /C:QQ/P1:r/P2:r/ /C:QK/P1:r/P2:r/
+infoset /C:Q?/P1:r/P2:r/P1:c/C:J/ nodes /C:QJ/P1:r/P2:r/P1:c/C:J/ /C:QQ/P1:r/P2:r/P1:c/C:J/ /C:QK/P1:r/P2:r/P1:c/C:J/
+infoset /C:Q?/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/ nodes /C:QJ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/ /C:QQ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/ /C:QK/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/
+infoset /C:Q?/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/ nodes /C:QJ/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/ /C:QQ/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/ /C:QK/P1:r/P2:r/P1:c/C:J/P1:r/P2:r/
+infoset /C:Q?/P1:r/P2:r/P1:c/C:K/ nodes /C:QJ/P1:r/P2:r/P1:c/C:K/ /C:QQ/P1:r/P2:r/P1:c/C:K/ /C:QK/P1:r/P2:r/P1:c/C:K/
+infoset /C:Q?/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/ nodes /C:QJ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/ /C:QQ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/ /C:QK/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/
+infoset /C:Q?/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/ nodes /C:QJ/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/ /C:QQ/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/ /C:QK/P1:r/P2:r/P1:c/C:K/P1:r/P2:r/
+infoset /C:Q?/P1:r/P2:r/P1:c/C:Q/ nodes /C:QJ/P1:r/P2:r/P1:c/C:Q/ /C:QK/P1:r/P2:r/P1:c/C:Q/
+infoset /C:Q?/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/ nodes /C:QJ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/ /C:QK/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/
+infoset /C:Q?/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/ nodes /C:QJ/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/ /C:QK/P1:r/P2:r/P1:c/C:Q/P1:r/P2:r/
+infoset /C:?J/P1:c/ nodes /C:JJ/P1:c/ /C:QJ/P1:c/ /C:KJ/P1:c/
+infoset /C:?J/P1:c/P2:c/C:J/P1:c/ nodes /C:QJ/P1:c/P2:c/C:J/P1:c/ /C:KJ/P1:c/P2:c/C:J/P1:c/
+infoset /C:?J/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/ nodes /C:QJ/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/ /C:KJ/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/
+infoset /C:?J/P1:c/P2:c/C:J/P1:r/ nodes /C:QJ/P1:c/P2:c/C:J/P1:r/ /C:KJ/P1:c/P2:c/C:J/P1:r/
+infoset /C:?J/P1:c/P2:c/C:K/P1:c/ nodes /C:JJ/P1:c/P2:c/C:K/P1:c/ /C:QJ/P1:c/P2:c/C:K/P1:c/ /C:KJ/P1:c/P2:c/C:K/P1:c/
+infoset /C:?J/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/ nodes /C:JJ/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/ /C:QJ/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/ /C:KJ/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/
+infoset /C:?J/P1:c/P2:c/C:K/P1:r/ nodes /C:JJ/P1:c/P2:c/C:K/P1:r/ /C:QJ/P1:c/P2:c/C:K/P1:r/ /C:KJ/P1:c/P2:c/C:K/P1:r/
+infoset /C:?J/P1:c/P2:c/C:Q/P1:c/ nodes /C:JJ/P1:c/P2:c/C:Q/P1:c/ /C:QJ/P1:c/P2:c/C:Q/P1:c/ /C:KJ/P1:c/P2:c/C:Q/P1:c/
+infoset /C:?J/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/ nodes /C:JJ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/ /C:QJ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/ /C:KJ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/
+infoset /C:?J/P1:c/P2:c/C:Q/P1:r/ nodes /C:JJ/P1:c/P2:c/C:Q/P1:r/ /C:QJ/P1:c/P2:c/C:Q/P1:r/ /C:KJ/P1:c/P2:c/C:Q/P1:r/
+infoset /C:?J/P1:c/P2:r/P1:c/C:J/P1:c/ nodes /C:QJ/P1:c/P2:r/P1:c/C:J/P1:c/ /C:KJ/P1:c/P2:r/P1:c/C:J/P1:c/
+infoset /C:?J/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ nodes /C:QJ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ /C:KJ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/
+infoset /C:?J/P1:c/P2:r/P1:c/C:J/P1:r/ nodes /C:QJ/P1:c/P2:r/P1:c/C:J/P1:r/ /C:KJ/P1:c/P2:r/P1:c/C:J/P1:r/
+infoset /C:?J/P1:c/P2:r/P1:c/C:K/P1:c/ nodes /C:JJ/P1:c/P2:r/P1:c/C:K/P1:c/ /C:QJ/P1:c/P2:r/P1:c/C:K/P1:c/ /C:KJ/P1:c/P2:r/P1:c/C:K/P1:c/
+infoset /C:?J/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ nodes /C:JJ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ /C:QJ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ /C:KJ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/
+infoset /C:?J/P1:c/P2:r/P1:c/C:K/P1:r/ nodes /C:JJ/P1:c/P2:r/P1:c/C:K/P1:r/ /C:QJ/P1:c/P2:r/P1:c/C:K/P1:r/ /C:KJ/P1:c/P2:r/P1:c/C:K/P1:r/
+infoset /C:?J/P1:c/P2:r/P1:c/C:Q/P1:c/ nodes /C:JJ/P1:c/P2:r/P1:c/C:Q/P1:c/ /C:QJ/P1:c/P2:r/P1:c/C:Q/P1:c/ /C:KJ/P1:c/P2:r/P1:c/C:Q/P1:c/
+infoset /C:?J/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ nodes /C:JJ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ /C:QJ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ /C:KJ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/
+infoset /C:?J/P1:c/P2:r/P1:c/C:Q/P1:r/ nodes /C:JJ/P1:c/P2:r/P1:c/C:Q/P1:r/ /C:QJ/P1:c/P2:r/P1:c/C:Q/P1:r/ /C:KJ/P1:c/P2:r/P1:c/C:Q/P1:r/
+infoset /C:?J/P1:c/P2:r/P1:r/ nodes /C:JJ/P1:c/P2:r/P1:r/ /C:QJ/P1:c/P2:r/P1:r/ /C:KJ/P1:c/P2:r/P1:r/
+infoset /C:?J/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/ nodes /C:QJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/ /C:KJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/
+infoset /C:?J/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ nodes /C:QJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ /C:KJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/
+infoset /C:?J/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/ nodes /C:QJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/ /C:KJ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/
+infoset /C:?J/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/ nodes /C:JJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/ /C:QJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/ /C:KJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/
+infoset /C:?J/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ nodes /C:JJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ /C:QJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ /C:KJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/
+infoset /C:?J/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/ nodes /C:JJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/ /C:QJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/ /C:KJ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/
+infoset /C:?J/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/ nodes /C:JJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/ /C:QJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/ /C:KJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/
+infoset /C:?J/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ nodes /C:JJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ /C:QJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ /C:KJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/
+infoset /C:?J/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/ nodes /C:JJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/ /C:QJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/ /C:KJ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/
+infoset /C:?J/P1:r/ nodes /C:JJ/P1:r/ /C:QJ/P1:r/ /C:KJ/P1:r/
+infoset /C:?J/P1:r/P2:c/C:J/P1:c/ nodes /C:QJ/P1:r/P2:c/C:J/P1:c/ /C:KJ/P1:r/P2:c/C:J/P1:c/
+infoset /C:?J/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ nodes /C:QJ/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ /C:KJ/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/
+infoset /C:?J/P1:r/P2:c/C:J/P1:r/ nodes /C:QJ/P1:r/P2:c/C:J/P1:r/ /C:KJ/P1:r/P2:c/C:J/P1:r/
+infoset /C:?J/P1:r/P2:c/C:K/P1:c/ nodes /C:JJ/P1:r/P2:c/C:K/P1:c/ /C:QJ/P1:r/P2:c/C:K/P1:c/ /C:KJ/P1:r/P2:c/C:K/P1:c/
+infoset /C:?J/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ nodes /C:JJ/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ /C:QJ/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ /C:KJ/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/
+infoset /C:?J/P1:r/P2:c/C:K/P1:r/ nodes /C:JJ/P1:r/P2:c/C:K/P1:r/ /C:QJ/P1:r/P2:c/C:K/P1:r/ /C:KJ/P1:r/P2:c/C:K/P1:r/
+infoset /C:?J/P1:r/P2:c/C:Q/P1:c/ nodes /C:JJ/P1:r/P2:c/C:Q/P1:c/ /C:QJ/P1:r/P2:c/C:Q/P1:c/ /C:KJ/P1:r/P2:c/C:Q/P1:c/
+infoset /C:?J/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ nodes /C:JJ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ /C:QJ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ /C:KJ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/
+infoset /C:?J/P1:r/P2:c/C:Q/P1:r/ nodes /C:JJ/P1:r/P2:c/C:Q/P1:r/ /C:QJ/P1:r/P2:c/C:Q/P1:r/ /C:KJ/P1:r/P2:c/C:Q/P1:r/
+infoset /C:?J/P1:r/P2:r/P1:c/C:J/P1:c/ nodes /C:QJ/P1:r/P2:r/P1:c/C:J/P1:c/ /C:KJ/P1:r/P2:r/P1:c/C:J/P1:c/
+infoset /C:?J/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ nodes /C:QJ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ /C:KJ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/
+infoset /C:?J/P1:r/P2:r/P1:c/C:J/P1:r/ nodes /C:QJ/P1:r/P2:r/P1:c/C:J/P1:r/ /C:KJ/P1:r/P2:r/P1:c/C:J/P1:r/
+infoset /C:?J/P1:r/P2:r/P1:c/C:K/P1:c/ nodes /C:JJ/P1:r/P2:r/P1:c/C:K/P1:c/ /C:QJ/P1:r/P2:r/P1:c/C:K/P1:c/ /C:KJ/P1:r/P2:r/P1:c/C:K/P1:c/
+infoset /C:?J/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ nodes /C:JJ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ /C:QJ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ /C:KJ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/
+infoset /C:?J/P1:r/P2:r/P1:c/C:K/P1:r/ nodes /C:JJ/P1:r/P2:r/P1:c/C:K/P1:r/ /C:QJ/P1:r/P2:r/P1:c/C:K/P1:r/ /C:KJ/P1:r/P2:r/P1:c/C:K/P1:r/
+infoset /C:?J/P1:r/P2:r/P1:c/C:Q/P1:c/ nodes /C:JJ/P1:r/P2:r/P1:c/C:Q/P1:c/ /C:QJ/P1:r/P2:r/P1:c/C:Q/P1:c/ /C:KJ/P1:r/P2:r/P1:c/C:Q/P1:c/
+infoset /C:?J/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ nodes /C:JJ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ /C:QJ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ /C:KJ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/
+infoset /C:?J/P1:r/P2:r/P1:c/C:Q/P1:r/ nodes /C:JJ/P1:r/P2:r/P1:c/C:Q/P1:r/ /C:QJ/P1:r/P2:r/P1:c/C:Q/P1:r/ /C:KJ/P1:r/P2:r/P1:c/C:Q/P1:r/
+infoset /C:?K/P1:c/ nodes /C:JK/P1:c/ /C:QK/P1:c/ /C:KK/P1:c/
+infoset /C:?K/P1:c/P2:c/C:J/P1:c/ nodes /C:JK/P1:c/P2:c/C:J/P1:c/ /C:QK/P1:c/P2:c/C:J/P1:c/ /C:KK/P1:c/P2:c/C:J/P1:c/
+infoset /C:?K/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/ nodes /C:JK/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/ /C:QK/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/ /C:KK/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/
+infoset /C:?K/P1:c/P2:c/C:J/P1:r/ nodes /C:JK/P1:c/P2:c/C:J/P1:r/ /C:QK/P1:c/P2:c/C:J/P1:r/ /C:KK/P1:c/P2:c/C:J/P1:r/
+infoset /C:?K/P1:c/P2:c/C:K/P1:c/ nodes /C:JK/P1:c/P2:c/C:K/P1:c/ /C:QK/P1:c/P2:c/C:K/P1:c/
+infoset /C:?K/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/ nodes /C:JK/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/ /C:QK/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/
+infoset /C:?K/P1:c/P2:c/C:K/P1:r/ nodes /C:JK/P1:c/P2:c/C:K/P1:r/ /C:QK/P1:c/P2:c/C:K/P1:r/
+infoset /C:?K/P1:c/P2:c/C:Q/P1:c/ nodes /C:JK/P1:c/P2:c/C:Q/P1:c/ /C:QK/P1:c/P2:c/C:Q/P1:c/ /C:KK/P1:c/P2:c/C:Q/P1:c/
+infoset /C:?K/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/ nodes /C:JK/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/ /C:QK/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/ /C:KK/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/
+infoset /C:?K/P1:c/P2:c/C:Q/P1:r/ nodes /C:JK/P1:c/P2:c/C:Q/P1:r/ /C:QK/P1:c/P2:c/C:Q/P1:r/ /C:KK/P1:c/P2:c/C:Q/P1:r/
+infoset /C:?K/P1:c/P2:r/P1:c/C:J/P1:c/ nodes /C:JK/P1:c/P2:r/P1:c/C:J/P1:c/ /C:QK/P1:c/P2:r/P1:c/C:J/P1:c/ /C:KK/P1:c/P2:r/P1:c/C:J/P1:c/
+infoset /C:?K/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ nodes /C:JK/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ /C:QK/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ /C:KK/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/
+infoset /C:?K/P1:c/P2:r/P1:c/C:J/P1:r/ nodes /C:JK/P1:c/P2:r/P1:c/C:J/P1:r/ /C:QK/P1:c/P2:r/P1:c/C:J/P1:r/ /C:KK/P1:c/P2:r/P1:c/C:J/P1:r/
+infoset /C:?K/P1:c/P2:r/P1:c/C:K/P1:c/ nodes /C:JK/P1:c/P2:r/P1:c/C:K/P1:c/ /C:QK/P1:c/P2:r/P1:c/C:K/P1:c/
+infoset /C:?K/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ nodes /C:JK/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ /C:QK/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/
+infoset /C:?K/P1:c/P2:r/P1:c/C:K/P1:r/ nodes /C:JK/P1:c/P2:r/P1:c/C:K/P1:r/ /C:QK/P1:c/P2:r/P1:c/C:K/P1:r/
+infoset /C:?K/P1:c/P2:r/P1:c/C:Q/P1:c/ nodes /C:JK/P1:c/P2:r/P1:c/C:Q/P1:c/ /C:QK/P1:c/P2:r/P1:c/C:Q/P1:c/ /C:KK/P1:c/P2:r/P1:c/C:Q/P1:c/
+infoset /C:?K/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ nodes /C:JK/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ /C:QK/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ /C:KK/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/
+infoset /C:?K/P1:c/P2:r/P1:c/C:Q/P1:r/ nodes /C:JK/P1:c/P2:r/P1:c/C:Q/P1:r/ /C:QK/P1:c/P2:r/P1:c/C:Q/P1:r/ /C:KK/P1:c/P2:r/P1:c/C:Q/P1:r/
+infoset /C:?K/P1:c/P2:r/P1:r/ nodes /C:JK/P1:c/P2:r/P1:r/ /C:QK/P1:c/P2:r/P1:r/ /C:KK/P1:c/P2:r/P1:r/
+infoset /C:?K/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/ nodes /C:JK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/ /C:QK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/ /C:KK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/
+infoset /C:?K/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ nodes /C:JK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ /C:QK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ /C:KK/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/
+infoset /C:?K/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/ nodes /C:JK/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/ /C:QK/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/ /C:KK/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/
+infoset /C:?K/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/ nodes /C:JK/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/ /C:QK/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/
+infoset /C:?K/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ nodes /C:JK/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ /C:QK/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/
+infoset /C:?K/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/ nodes /C:JK/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/ /C:QK/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/
+infoset /C:?K/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/ nodes /C:JK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/ /C:QK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/ /C:KK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/
+infoset /C:?K/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ nodes /C:JK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ /C:QK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ /C:KK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/
+infoset /C:?K/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/ nodes /C:JK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/ /C:QK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/ /C:KK/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/
+infoset /C:?K/P1:r/ nodes /C:JK/P1:r/ /C:QK/P1:r/ /C:KK/P1:r/
+infoset /C:?K/P1:r/P2:c/C:J/P1:c/ nodes /C:JK/P1:r/P2:c/C:J/P1:c/ /C:QK/P1:r/P2:c/C:J/P1:c/ /C:KK/P1:r/P2:c/C:J/P1:c/
+infoset /C:?K/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ nodes /C:JK/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ /C:QK/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ /C:KK/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/
+infoset /C:?K/P1:r/P2:c/C:J/P1:r/ nodes /C:JK/P1:r/P2:c/C:J/P1:r/ /C:QK/P1:r/P2:c/C:J/P1:r/ /C:KK/P1:r/P2:c/C:J/P1:r/
+infoset /C:?K/P1:r/P2:c/C:K/P1:c/ nodes /C:JK/P1:r/P2:c/C:K/P1:c/ /C:QK/P1:r/P2:c/C:K/P1:c/
+infoset /C:?K/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ nodes /C:JK/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ /C:QK/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/
+infoset /C:?K/P1:r/P2:c/C:K/P1:r/ nodes /C:JK/P1:r/P2:c/C:K/P1:r/ /C:QK/P1:r/P2:c/C:K/P1:r/
+infoset /C:?K/P1:r/P2:c/C:Q/P1:c/ nodes /C:JK/P1:r/P2:c/C:Q/P1:c/ /C:QK/P1:r/P2:c/C:Q/P1:c/ /C:KK/P1:r/P2:c/C:Q/P1:c/
+infoset /C:?K/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ nodes /C:JK/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ /C:QK/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ /C:KK/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/
+infoset /C:?K/P1:r/P2:c/C:Q/P1:r/ nodes /C:JK/P1:r/P2:c/C:Q/P1:r/ /C:QK/P1:r/P2:c/C:Q/P1:r/ /C:KK/P1:r/P2:c/C:Q/P1:r/
+infoset /C:?K/P1:r/P2:r/P1:c/C:J/P1:c/ nodes /C:JK/P1:r/P2:r/P1:c/C:J/P1:c/ /C:QK/P1:r/P2:r/P1:c/C:J/P1:c/ /C:KK/P1:r/P2:r/P1:c/C:J/P1:c/
+infoset /C:?K/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ nodes /C:JK/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ /C:QK/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ /C:KK/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/
+infoset /C:?K/P1:r/P2:r/P1:c/C:J/P1:r/ nodes /C:JK/P1:r/P2:r/P1:c/C:J/P1:r/ /C:QK/P1:r/P2:r/P1:c/C:J/P1:r/ /C:KK/P1:r/P2:r/P1:c/C:J/P1:r/
+infoset /C:?K/P1:r/P2:r/P1:c/C:K/P1:c/ nodes /C:JK/P1:r/P2:r/P1:c/C:K/P1:c/ /C:QK/P1:r/P2:r/P1:c/C:K/P1:c/
+infoset /C:?K/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ nodes /C:JK/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ /C:QK/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/
+infoset /C:?K/P1:r/P2:r/P1:c/C:K/P1:r/ nodes /C:JK/P1:r/P2:r/P1:c/C:K/P1:r/ /C:QK/P1:r/P2:r/P1:c/C:K/P1:r/
+infoset /C:?K/P1:r/P2:r/P1:c/C:Q/P1:c/ nodes /C:JK/P1:r/P2:r/P1:c/C:Q/P1:c/ /C:QK/P1:r/P2:r/P1:c/C:Q/P1:c/ /C:KK/P1:r/P2:r/P1:c/C:Q/P1:c/
+infoset /C:?K/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ nodes /C:JK/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ /C:QK/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ /C:KK/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/
+infoset /C:?K/P1:r/P2:r/P1:c/C:Q/P1:r/ nodes /C:JK/P1:r/P2:r/P1:c/C:Q/P1:r/ /C:QK/P1:r/P2:r/P1:c/C:Q/P1:r/ /C:KK/P1:r/P2:r/P1:c/C:Q/P1:r/
+infoset /C:?Q/P1:c/ nodes /C:JQ/P1:c/ /C:QQ/P1:c/ /C:KQ/P1:c/
+infoset /C:?Q/P1:c/P2:c/C:J/P1:c/ nodes /C:JQ/P1:c/P2:c/C:J/P1:c/ /C:QQ/P1:c/P2:c/C:J/P1:c/ /C:KQ/P1:c/P2:c/C:J/P1:c/
+infoset /C:?Q/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/ nodes /C:JQ/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/ /C:QQ/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/ /C:KQ/P1:c/P2:c/C:J/P1:c/P2:r/P1:r/
+infoset /C:?Q/P1:c/P2:c/C:J/P1:r/ nodes /C:JQ/P1:c/P2:c/C:J/P1:r/ /C:QQ/P1:c/P2:c/C:J/P1:r/ /C:KQ/P1:c/P2:c/C:J/P1:r/
+infoset /C:?Q/P1:c/P2:c/C:K/P1:c/ nodes /C:JQ/P1:c/P2:c/C:K/P1:c/ /C:QQ/P1:c/P2:c/C:K/P1:c/ /C:KQ/P1:c/P2:c/C:K/P1:c/
+infoset /C:?Q/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/ nodes /C:JQ/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/ /C:QQ/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/ /C:KQ/P1:c/P2:c/C:K/P1:c/P2:r/P1:r/
+infoset /C:?Q/P1:c/P2:c/C:K/P1:r/ nodes /C:JQ/P1:c/P2:c/C:K/P1:r/ /C:QQ/P1:c/P2:c/C:K/P1:r/ /C:KQ/P1:c/P2:c/C:K/P1:r/
+infoset /C:?Q/P1:c/P2:c/C:Q/P1:c/ nodes /C:JQ/P1:c/P2:c/C:Q/P1:c/ /C:KQ/P1:c/P2:c/C:Q/P1:c/
+infoset /C:?Q/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/ nodes /C:JQ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/ /C:KQ/P1:c/P2:c/C:Q/P1:c/P2:r/P1:r/
+infoset /C:?Q/P1:c/P2:c/C:Q/P1:r/ nodes /C:JQ/P1:c/P2:c/C:Q/P1:r/ /C:KQ/P1:c/P2:c/C:Q/P1:r/
+infoset /C:?Q/P1:c/P2:r/P1:c/C:J/P1:c/ nodes /C:JQ/P1:c/P2:r/P1:c/C:J/P1:c/ /C:QQ/P1:c/P2:r/P1:c/C:J/P1:c/ /C:KQ/P1:c/P2:r/P1:c/C:J/P1:c/
+infoset /C:?Q/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ nodes /C:JQ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ /C:QQ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ /C:KQ/P1:c/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/
+infoset /C:?Q/P1:c/P2:r/P1:c/C:J/P1:r/ nodes /C:JQ/P1:c/P2:r/P1:c/C:J/P1:r/ /C:QQ/P1:c/P2:r/P1:c/C:J/P1:r/ /C:KQ/P1:c/P2:r/P1:c/C:J/P1:r/
+infoset /C:?Q/P1:c/P2:r/P1:c/C:K/P1:c/ nodes /C:JQ/P1:c/P2:r/P1:c/C:K/P1:c/ /C:QQ/P1:c/P2:r/P1:c/C:K/P1:c/ /C:KQ/P1:c/P2:r/P1:c/C:K/P1:c/
+infoset /C:?Q/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ nodes /C:JQ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ /C:QQ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ /C:KQ/P1:c/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/
+infoset /C:?Q/P1:c/P2:r/P1:c/C:K/P1:r/ nodes /C:JQ/P1:c/P2:r/P1:c/C:K/P1:r/ /C:QQ/P1:c/P2:r/P1:c/C:K/P1:r/ /C:KQ/P1:c/P2:r/P1:c/C:K/P1:r/
+infoset /C:?Q/P1:c/P2:r/P1:c/C:Q/P1:c/ nodes /C:JQ/P1:c/P2:r/P1:c/C:Q/P1:c/ /C:KQ/P1:c/P2:r/P1:c/C:Q/P1:c/
+infoset /C:?Q/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ nodes /C:JQ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ /C:KQ/P1:c/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/
+infoset /C:?Q/P1:c/P2:r/P1:c/C:Q/P1:r/ nodes /C:JQ/P1:c/P2:r/P1:c/C:Q/P1:r/ /C:KQ/P1:c/P2:r/P1:c/C:Q/P1:r/
+infoset /C:?Q/P1:c/P2:r/P1:r/ nodes /C:JQ/P1:c/P2:r/P1:r/ /C:QQ/P1:c/P2:r/P1:r/ /C:KQ/P1:c/P2:r/P1:r/
+infoset /C:?Q/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/ nodes /C:JQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/ /C:QQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/ /C:KQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/
+infoset /C:?Q/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ nodes /C:JQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ /C:QQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ /C:KQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/
+infoset /C:?Q/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/ nodes /C:JQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/ /C:QQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/ /C:KQ/P1:c/P2:r/P1:r/P2:c/C:J/P1:r/
+infoset /C:?Q/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/ nodes /C:JQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/ /C:QQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/ /C:KQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/
+infoset /C:?Q/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ nodes /C:JQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ /C:QQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ /C:KQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/
+infoset /C:?Q/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/ nodes /C:JQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/ /C:QQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/ /C:KQ/P1:c/P2:r/P1:r/P2:c/C:K/P1:r/
+infoset /C:?Q/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/ nodes /C:JQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/ /C:KQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/
+infoset /C:?Q/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ nodes /C:JQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ /C:KQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/
+infoset /C:?Q/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/ nodes /C:JQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/ /C:KQ/P1:c/P2:r/P1:r/P2:c/C:Q/P1:r/
+infoset /C:?Q/P1:r/ nodes /C:JQ/P1:r/ /C:QQ/P1:r/ /C:KQ/P1:r/
+infoset /C:?Q/P1:r/P2:c/C:J/P1:c/ nodes /C:JQ/P1:r/P2:c/C:J/P1:c/ /C:QQ/P1:r/P2:c/C:J/P1:c/ /C:KQ/P1:r/P2:c/C:J/P1:c/
+infoset /C:?Q/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ nodes /C:JQ/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ /C:QQ/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/ /C:KQ/P1:r/P2:c/C:J/P1:c/P2:r/P1:r/
+infoset /C:?Q/P1:r/P2:c/C:J/P1:r/ nodes /C:JQ/P1:r/P2:c/C:J/P1:r/ /C:QQ/P1:r/P2:c/C:J/P1:r/ /C:KQ/P1:r/P2:c/C:J/P1:r/
+infoset /C:?Q/P1:r/P2:c/C:K/P1:c/ nodes /C:JQ/P1:r/P2:c/C:K/P1:c/ /C:QQ/P1:r/P2:c/C:K/P1:c/ /C:KQ/P1:r/P2:c/C:K/P1:c/
+infoset /C:?Q/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ nodes /C:JQ/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ /C:QQ/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/ /C:KQ/P1:r/P2:c/C:K/P1:c/P2:r/P1:r/
+infoset /C:?Q/P1:r/P2:c/C:K/P1:r/ nodes /C:JQ/P1:r/P2:c/C:K/P1:r/ /C:QQ/P1:r/P2:c/C:K/P1:r/ /C:KQ/P1:r/P2:c/C:K/P1:r/
+infoset /C:?Q/P1:r/P2:c/C:Q/P1:c/ nodes /C:JQ/P1:r/P2:c/C:Q/P1:c/ /C:KQ/P1:r/P2:c/C:Q/P1:c/
+infoset /C:?Q/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ nodes /C:JQ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/ /C:KQ/P1:r/P2:c/C:Q/P1:c/P2:r/P1:r/
+infoset /C:?Q/P1:r/P2:c/C:Q/P1:r/ nodes /C:JQ/P1:r/P2:c/C:Q/P1:r/ /C:KQ/P1:r/P2:c/C:Q/P1:r/
+infoset /C:?Q/P1:r/P2:r/P1:c/C:J/P1:c/ nodes /C:JQ/P1:r/P2:r/P1:c/C:J/P1:c/ /C:QQ/P1:r/P2:r/P1:c/C:J/P1:c/ /C:KQ/P1:r/P2:r/P1:c/C:J/P1:c/
+infoset /C:?Q/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ nodes /C:JQ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ /C:QQ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/ /C:KQ/P1:r/P2:r/P1:c/C:J/P1:c/P2:r/P1:r/
+infoset /C:?Q/P1:r/P2:r/P1:c/C:J/P1:r/ nodes /C:JQ/P1:r/P2:r/P1:c/C:J/P1:r/ /C:QQ/P1:r/P2:r/P1:c/C:J/P1:r/ /C:KQ/P1:r/P2:r/P1:c/C:J/P1:r/
+infoset /C:?Q/P1:r/P2:r/P1:c/C:K/P1:c/ nodes /C:JQ/P1:r/P2:r/P1:c/C:K/P1:c/ /C:QQ/P1:r/P2:r/P1:c/C:K/P1:c/ /C:KQ/P1:r/P2:r/P1:c/C:K/P1:c/
+infoset /C:?Q/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ nodes /C:JQ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ /C:QQ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/ /C:KQ/P1:r/P2:r/P1:c/C:K/P1:c/P2:r/P1:r/
+infoset /C:?Q/P1:r/P2:r/P1:c/C:K/P1:r/ nodes /C:JQ/P1:r/P2:r/P1:c/C:K/P1:r/ /C:QQ/P1:r/P2:r/P1:c/C:K/P1:r/ /C:KQ/P1:r/P2:r/P1:c/C:K/P1:r/
+infoset /C:?Q/P1:r/P2:r/P1:c/C:Q/P1:c/ nodes /C:JQ/P1:r/P2:r/P1:c/C:Q/P1:c/ /C:KQ/P1:r/P2:r/P1:c/C:Q/P1:c/
+infoset /C:?Q/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ nodes /C:JQ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/ /C:KQ/P1:r/P2:r/P1:c/C:Q/P1:c/P2:r/P1:r/
+infoset /C:?Q/P1:r/P2:r/P1:c/C:Q/P1:r/ nodes /C:JQ/P1:r/P2:r/P1:c/C:Q/P1:r/ /C:KQ/P1:r/P2:r/P1:c/C:Q/P1:r/
